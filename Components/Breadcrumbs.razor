@@ -1,0 +1,30 @@
+
+
+<h4 class="mt-4">Crumbs</h4>
+<hr>
+
+<div>
+    <Breadcrumb Items="NavItems1"></Breadcrumb>
+    <Breadcrumb Items="NavItems2"></Breadcrumb>
+</div>
+
+@code {
+    private List<BreadcrumbItem> NavItems1 { get; set; }
+    private List<BreadcrumbItem> NavItems2 { get; set; }
+
+    protected override void OnInitialized()
+    {
+        NavItems1 = new List<BreadcrumbItem>
+        {
+            new BreadcrumbItem{ Text = "Home", Href ="/" },
+            new BreadcrumbItem{ Text = "Breadcrumb", IsCurrentPage = true }
+        };
+
+        NavItems2 = new List<BreadcrumbItem>
+        {
+            new BreadcrumbItem{ Text = "Home", Href ="/" },
+            new BreadcrumbItem{ Text = "Docs", Href ="/docs" },
+            new BreadcrumbItem{ Text = "Breadcrumb", IsCurrentPage = true }
+        };
+    }
+}

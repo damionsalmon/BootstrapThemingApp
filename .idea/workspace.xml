@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="3309bb4a-6850-4560-a280-0a5378cf549c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Components/SalForms.razor" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/customer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/assets/customer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.BootstrapThemingApp.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BootstrapThemingApp.dir/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Components/SalBadge.razor" beforeDir="false" afterPath="$PROJECT_DIR$/Components/SalBadge.razor" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Components/Typography.razor" beforeDir="false" afterPath="$PROJECT_DIR$/Components/Typography.razor" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Folder.DotSettings.user" beforeDir="false" afterPath="$PROJECT_DIR$/Folder.DotSettings.user" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pages/Forms.razor" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pages/Home.razor" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/Home.razor" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/net9.0/BootstrapThemingApp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net9.0/BootstrapThemingApp.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/net9.0/BootstrapThemingApp.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net9.0/BootstrapThemingApp.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/net9.0/BootstrapThemingApp.staticwebassets.endpoints.json" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net9.0/BootstrapThemingApp.staticwebassets.endpoints.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/net9.0/BootstrapThemingApp.staticwebassets.runtime.json" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net9.0/BootstrapThemingApp.staticwebassets.runtime.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/net9.0/wwwroot/_framework/BootstrapThemingApp.5lz18y5wx4.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/net9.0/wwwroot/_framework/BootstrapThemingApp.5lz18y5wx4.pdb.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/net9.0/wwwroot/_framework/BootstrapThemingApp.tdjjj3r56t.wasm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/net9.0/wwwroot/_framework/BootstrapThemingApp.tdjjj3r56t.wasm.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/net9.0/wwwroot/_framework/blazor.boot.json" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net9.0/wwwroot/_framework/blazor.boot.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/net9.0/wwwroot/_framework/blazor.boot.json.gz" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net9.0/wwwroot/_framework/blazor.boot.json.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net9.0/BootstrapThemingApp.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net9.0/BootstrapThemingApp.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net9.0/BootstrapThemingApp.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net9.0/BootstrapThemingApp.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net9.0/BootstrapThemingApp.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net9.0/BootstrapThemingApp.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net9.0/BootstrapThemingApp.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net9.0/BootstrapThemingApp.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net9.0/BootstrapThemingApp.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net9.0/BootstrapThemingApp.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net9.0/BootstrapThemingApp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net9.0/BootstrapThemingApp.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net9.0/BootstrapThemingApp.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net9.0/BootstrapThemingApp.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net9.0/blazor.boot.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net9.0/blazor.boot.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net9.0/compressed/2uk2gmi8he-ce8j1qh682.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net9.0/compressed/59vd701vfh-h2gbpf7qir.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net9.0/compressed/6koc9t8wo6-ce8j1qh682.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net9.0/compressed/akxof6u3fo-iq6tkl9y64.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net9.0/compressed/oo0ryr1bkd-tdjjj3r56t.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net9.0/compressed/qlhsp3g07b-084fjpvfre.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net9.0/compressed/rf53xnbr4s-5lz18y5wx4.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net9.0/ref/BootstrapThemingApp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net9.0/ref/BootstrapThemingApp.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net9.0/refint/BootstrapThemingApp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net9.0/refint/BootstrapThemingApp.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net9.0/staticwebassets.build.endpoints.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net9.0/staticwebassets.build.endpoints.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net9.0/staticwebassets.build.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net9.0/staticwebassets.build.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net9.0/staticwebassets.development.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net9.0/staticwebassets.development.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net9.0/staticwebassets.pack.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net9.0/staticwebassets.pack.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net9.0/staticwebassets/msbuild.BootstrapThemingApp.Microsoft.AspNetCore.StaticWebAssetEndpoints.props" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net9.0/staticwebassets/msbuild.BootstrapThemingApp.Microsoft.AspNetCore.StaticWebAssetEndpoints.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net9.0/staticwebassets/msbuild.BootstrapThemingApp.Microsoft.AspNetCore.StaticWebAssets.props" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net9.0/staticwebassets/msbuild.BootstrapThemingApp.Microsoft.AspNetCore.StaticWebAssets.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net9.0/tmp-webcil/BootstrapThemingApp.wasm" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net9.0/tmp-webcil/BootstrapThemingApp.wasm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net9.0/webcil/BootstrapThemingApp.wasm" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net9.0/webcil/BootstrapThemingApp.wasm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wwwroot/css/theme.css" beforeDir="false" afterPath="$PROJECT_DIR$/wwwroot/css/theme.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wwwroot/css/theme.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/wwwroot/css/theme.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wwwroot/scss/_override.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wwwroot/scss/_override.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wwwroot/scss/theme.css" beforeDir="false" afterPath="$PROJECT_DIR$/wwwroot/scss/theme.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wwwroot/scss/theme.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/wwwroot/scss/theme.css.map" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MacroExpansionManager">
+    <option name="directoryName" value="kmf2u563" />
+  </component>
+  <component name="ProjectId" id="2yRd2c0eu5r0WaIrMsc5WNLLYQb" />
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="autoscrollToSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "dart.analysis.tool.window.visible": "false",
+    "git-widget-placeholder": "main",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3309bb4a-6850-4560-a280-0a5378cf549c" name="Changes" comment="" />
+      <created>1749801115886</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1749801115886</updated>
+      <workItem from="1749801119059" duration="67000" />
+    </task>
+    <servers />
+  </component>
+</project>

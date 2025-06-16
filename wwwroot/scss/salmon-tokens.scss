@@ -1,0 +1,254 @@
+
+//Base
+$white: #fff;
+$black: #181A1E;
+
+// Extended Grayscale
+$gray-25: #FCFCFD;
+$gray-50: #F8FAFC;
+$gray-100: #EEF2F6;
+$gray-200: #E3E8EF;
+$gray-300: #CDD5DF;
+$gray-400: #9AA4B2;
+$gray-500: #697586;
+$gray-600: #4B5565;
+$gray-700: #364152;
+$gray-800: #202939;
+$gray-900: #121926;
+$gray-950: #0D121C;
+
+// Brand (Purple)
+$brand-25: #F3EAF2;
+$brand-50: #E3CDE5;
+$brand-100: #D2B0D8;
+$brand-200: #C193CA;
+$brand-300: #B075BD;
+$brand-400: #A058B0;
+$brand-500: #C767C0;
+$brand-600: #9E4AA2;
+$brand-700: #803A82;
+$brand-800: #602C63;
+$brand-900: #3F1D43;
+$brand-950: #29132D;
+
+// Success
+$success-25: #F6FEF9;
+$success-50: #E8FCF3;
+$success-100: #9FF3CC;
+$success-200: #7AEEB8;
+$success-300: #55E9A4;
+$success-400: #30E490;
+$success-500: #1BCF7B;
+$success-600: #16AA65;
+$success-700: #11854F;
+$success-800: #0C6039;
+$success-900: #083C23;
+$success-950: #03170D;
+
+// Warning
+$warning-25: #FFF6E6;
+$warning-50: #FEE7BC;
+$warning-100: #FED893;
+$warning-200: #FECA6A;
+$warning-300: #FDBB40;
+$warning-400: #FDAC17;
+$warning-500: #E89702;
+$warning-600: #BF7C02;
+$warning-700: #956101;
+$warning-800: #6C4601;
+$warning-900: #432B01;
+$warning-950: #191000;
+
+// Error
+$error-25: #FFFBFA;
+$error-50: #FEF3F2;
+$error-100: #FEE4E2;
+$error-200: #FECDCA;
+$error-300: #FDA29B;
+$error-400: #F97066;
+$error-500: #F04438;
+$error-600: #D92D20;
+$error-700: #B42318;
+$error-800: #912018;
+$error-900: #7A271A;
+$error-950: #55160C;
+
+
+// Border Radius Tokens
+$radius-none: 0;
+$radius-xxs: 2px;
+$radius-xs: 4px;
+$radius-sm: 6px;
+$radius-md: 8px;
+$radius-lg: 10px;
+$radius-xl: 12px;
+$radius-2xl: 16px;
+$radius-3xl: 20px;
+$radius-4xl: 24px;
+$radius-full: 9999px;
+
+// Spacing Tokens
+$spacing-none: 0;
+$spacing-xxs: 2px;
+$spacing-xs: 4px;
+$spacing-sm: 6px;
+$spacing-md: 8px;
+$spacing-lg: 12px;
+$spacing-xl: 16px;
+$spacing-2xl: 20px;
+$spacing-3xl: 24px;
+$spacing-4xl: 32px;
+$spacing-5xl: 40px;
+$spacing-6xl: 48px;
+$spacing-7xl: 64px;
+$spacing-8xl: 80px;
+$spacing-9xl: 96px;
+$spacing-10xl: 128px;
+$spacing-11xl: 160px;
+
+// Bootstrap Overrides
+$border-radius: $radius-lg;
+$border-radius-sm: $radius-sm;
+$border-radius-lg: $radius-lg;
+
+$btn-box-shadow-skeuo: 0px 0px 0px 2px $gray-100,
+0px -2px 0px 0px $gray-50,
+0px 1px 2px 0px $gray-50;
+
+
+// Bootstrap Theme Map Override (using level 500 tokens)
+$system-primary: $brand-600;
+$system-secondary: $gray-700;
+
+$theme-colors: (
+        "primary": $system-primary,
+        "secondary": $system-secondary,
+  /// Semantic colours should not change for any brand
+        "success": $success-500,
+        "danger": $error-600,
+        "warning": $warning-300,
+        "info": $gray-200,
+        "light": $gray-50,
+        "dark": $gray-900
+);
+
+
+
+
+// Typography  (specified in design system)
+
+// Font Family
+$font-family-display: 'Inter', sans-serif;
+$font-family-body: 'Inter', sans-serif;
+
+// Font Weight
+$font-weight-regular: 400;
+$font-weight-medium: 500;
+$font-weight-semibold: 600;
+$font-weight-bold: 700;
+
+// Font Sizes
+$font-size-label: rem(12);
+$font-size-body-sm: rem(14);
+$font-size-body: rem(16);
+$font-size-body-lg: rem(18);
+$font-size-h4: rem(20);
+$font-size-h3: rem(24);
+$font-size-h2: rem(28);
+$font-size-h1: rem(32);
+$font-size-display-md: rem(36);
+$font-size-display-lg: rem(48);
+$font-size-display-xl: rem(60);
+$font-size-display-2xl: rem(72);
+
+// Line Heights
+
+$line-height-label: rem(18);
+$line-height-body-sm: rem(20);
+$line-height-body-lg: rem(26);
+$line-height-h4: rem(28);
+$line-height-h3: rem(32);
+$line-height-h2: rem(36);
+$line-height-h1: rem(40);
+$line-height-display-md: rem(44);
+$line-height-display-lg: rem(60);
+$line-height-display-xl: rem(72);
+$line-height-display-2xl: rem(90);
+
+
+// Bootstrap Typography Overrides
+$font-family-sans-serif: $font-family-body;
+$font-family-base: $font-family-body;
+$font-weight-base: $font-weight-regular;
+$font-size-base: $font-size-body;
+$headings-font-family: $font-family-display;
+$headings-font-weight: $font-weight-semibold;
+
+
+/// Buttons & Links
+
+// 🔹 Primary
+$btn-primary-base: $system-primary;
+$btn-primary-bg: var(--system-primary);
+$btn-primary-bg-hover: var(--system-primary-hover);
+$btn-primary-border-color: var(--system-primary-border);
+$btn-primary-color: $white;
+$btn-primary-color-hover: $white;
+
+// 🔹 Secondary
+$btn-secondary-base: $system-secondary;
+$btn-secondary-bg: $white;
+$btn-secondary-bg-hover: $gray-50;
+$btn-secondary-border-color: var(--system-secondary-border);
+$btn-secondary-color: $btn-secondary-base;
+$btn-secondary-color-hover: var(--system-secondary-hover);
+
+// 🔹 Link
+$btn-link-base: $system-primary;
+$btn-link-bg: lighten($btn-link-base, 45%);
+$btn-link-bg-hover: lighten($btn-link-base, 30%);
+$btn-link-color: $btn-link-base;
+$btn-link-color-hover: darken($btn-link-base, 10%);
+
+// 🔹 Neutral (Text-style button)
+$btn-neutral-base: $gray-500;
+$btn-neutral-bg: transparent;
+$btn-neutral-bg-hover: lighten($btn-neutral-base, 30%);
+$btn-neutral-color: $btn-neutral-base;
+$btn-neutral-color-hover: darken($btn-neutral-base, 20%);
+
+// 🔹 Destructive (Error)
+$btn-error-base: $error-600;
+$btn-error-bg: var(--system-error);
+$btn-error-bg-hover: var(--system-error-hover);
+$btn-error-border-color: var(--system-error-border);
+$btn-error-color: $white;
+$btn-error-color-hover: $white;
+
+
+$link-color: $system-primary;
+$btn-box-shadow: 1px 0px 0px 1px var(--Colours-Grays-100, #EEF2F6), 0px 1px 0px 0px var(--Colours-Grays-50, #F8FAFC), 0px 3px 2px 0px var(--Colours-Grays-50, #F8FAFC);
+
+
+// Dynamic CSS Variables for Runtime Theming
+:root {
+  // Primary
+  --system-primary: #{$system-primary};
+  --system-primary-hover: #{darken($system-primary, 15%)};
+  --system-primary-border: #{darken($system-primary, 10%)};
+
+  // Secondary
+  --system-secondary: #{$system-secondary};
+  --system-secondary-hover: #{darken($system-secondary, 15%)};
+  --system-secondary-border: #{darken($system-secondary, 10%)};
+
+  // Error
+  --system-error: #{$btn-error-base};
+  --system-error-hover: #{darken($btn-error-base, 15%)};
+  --system-error-border: #{darken($btn-error-base, 10%)};
+
+  // Optional RGB (for use in shadows, focus rings, etc.)
+  --system-primary-rgb: #{red($system-primary)}, #{green($system-primary)}, #{blue($system-primary)};
+  --system-secondary-rgb: #{red($system-secondary)}, #{green($system-secondary)}, #{blue($system-secondary)};
+  --system-error-rgb: #{red($btn-error-base)}, #{green($btn-error-base)}, #{blue($btn-error-base)};
+}

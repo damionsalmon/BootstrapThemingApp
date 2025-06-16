@@ -1,0 +1,43 @@
+﻿@inherits LayoutComponentBase
+
+<BlazorBootstrapLayout StickyHeader="true">
+    <HeaderSection>
+        <ThemeSwitcher Class="ps-3 ps-lg-2" Position="DropdownMenuPosition.End"/>
+    </HeaderSection>
+
+    <SidebarSection>
+        <Sidebar Href="/"
+                 ImageSrc="https://demos.blazorbootstrap.com/images/logo/logo-white.svg"
+                 Title="Salmon Design System 0.0.2"
+                 BadgeText="3.2.0"
+                 DataProvider="SidebarDataProvider"
+                 WidthUnit="Unit.Px"/>
+    </SidebarSection>
+
+    <ContentSection>
+        @Body
+    </ContentSection>
+
+</BlazorBootstrapLayout>
+
+@code {
+    private IEnumerable<NavItem> navItems = default!;
+
+    private async Task<SidebarDataProviderResult> SidebarDataProvider(SidebarDataProviderRequest request)
+    {
+        navItems ??= GetNavItems();
+        return await Task.FromResult(request.ApplyTo(navItems));
+    }
+
+    private IEnumerable<NavItem> GetNavItems()
+    {
+        navItems = new List<NavItem>
+        {
+            new NavItem { Id = "1", Href = "/", IconName = IconName.HouseDoorFill, Text = "Style Guide (Typography & Buttons)", Match = NavLinkMatch.All },
+            new NavItem { Id = "3", Href = "/forms", IconName = IconName.CloudRain, Text = "Forms" },
+        };
+
+        return navItems;
+    }
+
+}

@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="../buildMultiTargeting/BootstrapThemingApp.props" />
+</Project>

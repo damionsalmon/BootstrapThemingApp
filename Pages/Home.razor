@@ -1,0 +1,93 @@
+﻿@page "/"
+@using BootstrapThemingApp.Components
+
+<PageTitle>Colours & Typography</PageTitle>
+
+<div class="container">
+    <div class="row">
+        <div class="col-6">
+            <h1>Theme Picker</h1>
+            @inject IJSRuntime JS
+
+            <input type="color" value="@PrimaryHex" @oninput="OnColorChanged"/>
+
+            @code {
+                private const string BrandColour = "#9E4AA2";
+                private string PrimaryHex { get; set; } = BrandColour;
+
+                private async Task OnColorChanged(ChangeEventArgs e)
+                {
+                    PrimaryHex = e.Value?.ToString() ?? BrandColour;
+                    await JS.InvokeVoidAsync("updateThemeToken", "--bs-primary", PrimaryHex);
+
+                    var hoverHex = DarkenHex(PrimaryHex, 0.25);
+                    var borderHex = DarkenHex(PrimaryHex, 0.10);
+
+                    await JS.InvokeVoidAsync("updateThemeToken", "--bs-primary-hover", hoverHex);
+                    await JS.InvokeVoidAsync("updateThemeToken", "--bs-primary-border", borderHex);
+
+                    var rgb = HexToRgb(PrimaryHex);
+                    await JS.InvokeVoidAsync("updateThemeToken", "--bs-primary-rgb", rgb);
+                }
+
+                private string DarkenHex(string hex, double factor)
+                {
+                    if (hex.StartsWith("#")) hex = hex.Substring(1);
+
+                    if (hex.Length != 6) return "#" + hex;
+
+                    int r = Convert.ToInt32(hex.Substring(0, 2), 16);
+                    int g = Convert.ToInt32(hex.Substring(2, 2), 16);
+                    int b = Convert.ToInt32(hex.Substring(4, 2), 16);
+
+                    r = (int)(r * (1 - factor));
+                    g = (int)(g * (1 - factor));
+                    b = (int)(b * (1 - factor));
+
+                    return $"#{r:X2}{g:X2}{b:X2}";
+                }
+
+                private string HexToRgb(string hex)
+                {
+                    if (hex.StartsWith("#")) hex = hex.Substring(1);
+                    if (hex.Length != 6) return "199, 103, 192"; // fallback
+
+                    int r = Convert.ToInt32(hex.Substring(0, 2), 16);
+                    int g = Convert.ToInt32(hex.Substring(2, 2), 16);
+                    int b = Convert.ToInt32(hex.Substring(4, 2), 16);
+
+                    return $"{r}, {g}, {b}";
+                }
+
+            }
+        </div>
+        <div class="col-6">
+            @code
+            {
+                private string LogoUrl { get; set; } = "http://localhost:5256/assets/salmon_dark.svg";
+
+            }
+
+            <input type="text" class="form-control mb-3" @bind="LogoUrl"
+                   placeholder="Paste your logo URL or server path"/>
+            <img class="logo img-fluid" src="@LogoUrl" alt="Company Logo"/>
+        </div>
+    </div>
+    <div class="row mt-5">
+        <div class="col-md-6">
+            <Typography/>
+        </div>
+        <div class="col-md-6">
+            <Buttons/>
+            <Breadcrumbs/>
+            <SalBadge/>
+            <SalCallOuts/>
+            <SalForms/>
+        </div>
+
+        <div class="col-md-12">
+            <SalIcons/>
+        </div>
+    </div>
+
+</div>

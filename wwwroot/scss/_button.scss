@@ -1,0 +1,66 @@
+
+@import "mixin.scss";
+
+// Primary Button
+.btn-primary {
+  @include skeuo-button-style;
+  background-color: $btn-primary-bg;
+  color: $btn-primary-color;
+  &:hover {
+    background-color: $btn-primary-bg-hover;
+    color: $btn-primary-color-hover;
+  }
+}
+
+// Secondary Button
+.btn-secondary {
+  @include skeuo-button-style;
+  background-color: $btn-secondary-bg;
+  color: $btn-secondary-color;
+
+  &:hover {
+    background-color: $btn-secondary-bg-hover;
+    color: $btn-secondary-color-hover;
+  }
+}
+
+// Link Button
+.btn-link {
+  background-color: $btn-link-bg;
+  color: $btn-link-color;
+  border: none;
+
+  &:hover {
+    background-color: $btn-link-bg-hover;
+    color: $btn-link-color-hover;
+  }
+}
+
+// Neutral Button
+.btn-neutral {
+  background-color: $btn-neutral-bg;
+  color: $btn-neutral-color;
+  border: none;
+
+  &:hover {
+    background-color: $btn-neutral-bg-hover;
+    color: $btn-neutral-color-hover;
+  }
+}
+
+// Destructive Button
+.btn-error {
+  background-color: $btn-error-bg;
+  color: $btn-error-color;
+  border: none;
+
+  &:hover {
+    background-color: $btn-error-bg-hover;
+    color: $btn-error-color-hover;
+  }
+}
+
+
+
+
+

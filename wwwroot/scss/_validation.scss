@@ -1,0 +1,15 @@
+.validation-message {
+  padding: .25rem 0;
+
+  &.info {
+    color: $info;
+  }
+
+  &.error {
+    color: $danger;
+  }
+
+  &.success {
+    color: $success;
+  }
+}

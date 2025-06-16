@@ -1,0 +1,59 @@
+<h4 class="mt-4">Badge</h4>
+<hr>
+
+
+<div class="mb-3 d-flex gap-2 flex-wrap">
+    <Button Type="ButtonType.Button" Color="ButtonColor.Primary">
+        Announcement
+        <Badge Color="BadgeColor.Danger">2</Badge>
+    </Button>
+
+    <Button Type="ButtonType.Button" Color="ButtonColor.Secondary">
+        Announcement
+        <Badge Color="BadgeColor.Danger">
+            <Icon Name="IconName.MegaphoneFill"/>
+            2
+        </Badge>
+    </Button>
+    <Button Type="ButtonType.Button" Color="ButtonColor.Info">
+        Notifications
+        <Badge>
+            <Icon Name="IconName.BellFill"/>
+            4
+        </Badge>
+    </Button>
+</div>
+
+<hr>
+
+<div class="mb-3 d-flex gap-2 flex-wrap">
+    <Button Type="ButtonType.Button" Color="ButtonColor.Primary" Position="Position.Relative">
+        Inbox
+        <Badge Color="BadgeColor.Secondary"
+               Position="Position.Absolute"
+               Placement="BadgePlacement.TopLeft"
+               IndicatorType="BadgeIndicatorType.RoundedPill"
+               VisuallyHiddenText="unread messages">99+
+        </Badge>
+    </Button>
+
+    <Button Type="ButtonType.Button" Color="ButtonColor.Secondary" Position="Position.Relative">
+        Inbox
+        <Badge Color="BadgeColor.Primary"
+               Position="Position.Absolute"
+               Placement="BadgePlacement.TopCenter"
+               IndicatorType="BadgeIndicatorType.RoundedPill"
+               VisuallyHiddenText="unread messages">99+
+        </Badge>
+    </Button>
+
+    <Button Type="ButtonType.Button" Color="ButtonColor.Info" Position="Position.Relative">
+        Inbox
+        <Badge Color="BadgeColor.Primary"
+               Position="Position.Absolute"
+               Placement="BadgePlacement.TopRight"
+               IndicatorType="BadgeIndicatorType.RoundedPill"
+               VisuallyHiddenText="unread messages">99+
+        </Badge>
+    </Button>
+</div>

@@ -1,0 +1,65 @@
+/*
+:root {
+  --system-primary: #9E4AA2;
+  --system-primary-hover: rgb(123.8559322034, 58.0084745763, 126.9915254237);
+  --system-primary-border: rgb(117.0271186441, 54.8101694915, 119.9898305085);
+
+  --system-secondary: #4B5565;
+  --system-secondary-hover: rgb(53.2670454545, 60.3693181818, 71.7329545455);
+  --system-secondary-border: rgb(180.3977272727, 187.7840909091, 199.6022727273);
+
+  --system-error: #D92D20;
+  --system-error-hover: rgb(172.5542168675, 35.7831325301, 25.4457831325);
+  --system-error-border: rgb(163.665060241, 33.9397590361, 24.134939759);
+
+  --btn-radius: 8px;
+
+  --btn-link-bg: rgb(240.2923728814, 224.4533898305, 241.0466101695);
+  --btn-link-bg-hover: rgb(215.0084745763, 171.9406779661, 217.0593220339);
+  --btn-link-color: #9E4AA2;
+  --btn-link-color-hover: rgb(123.8559322034, 58.0084745763, 126.9915254237);
+}
+*/
+:root {
+  --bs-primary: #9E4AA2;
+  --bs-primary-hover: rgb(123.8559322034, 58.0084745763, 126.9915254237);
+  --bs-secondary: #4B5565;
+  --bs-secondary-hover: rgb(53.2670454545, 60.3693181818, 71.7329545455);
+  --bs-danger: #D92D20;
+  --bs-danger-hover: rgb(172.5542168675, 35.7831325301, 25.4457831325);
+  --bs-body-bg: #F8FAFC;
+  --bs-body-color: #121926;
+  --btn-radius: 8px;
+}
+
+.btn-primary {
+  background-color: var(--bs-primary) !important;
+  border-color: var(--bs-primary-border, var(--bs-primary)) !important;
+  color: var(--bs-primary-color, #fff) !important;
+}
+.btn-primary:hover {
+  background-color: var(--bs-primary-hover, var(--bs-primary)) !important;
+  border-color: var(--bs-primary-hover, var(--bs-primary)) !important;
+}
+
+.btn-secondary {
+  background-color: var(--bs-secondary) !important;
+  border-color: var(--bs-secondary-border, var(--bs-secondary)) !important;
+  color: var(--bs-secondary-color, #fff) !important;
+}
+.btn-secondary:hover {
+  background-color: var(--bs-secondary-hover, var(--bs-secondary)) !important;
+  border-color: var(--bs-secondary-hover, var(--bs-secondary)) !important;
+}
+
+.btn-danger {
+  background-color: var(--bs-danger) !important;
+  border-color: var(--bs-danger-border, var(--bs-danger)) !important;
+  color: var(--bs-danger-color, #fff) !important;
+}
+.btn-danger:hover {
+  background-color: var(--bs-danger-hover, var(--bs-danger)) !important;
+  border-color: var(--bs-danger-hover, var(--bs-danger)) !important;
+}
+
+/*# sourceMappingURL=theme.css.map */
