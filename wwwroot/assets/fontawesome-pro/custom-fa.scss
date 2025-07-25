@@ -1,0 +1,13 @@
+@font-face {
+  font-family: 'Font Awesome 7 Pro Regular';
+  src: url('../webfonts/fa-regular-400.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Font Awesome 7 Pro Light';
+  src: url('../webfonts/fa-light-300.woff2') format('woff2');
+}
+
+@import './pro-7/fontawesome';
+@import './pro-7/regular';
+@import './pro-7/light';

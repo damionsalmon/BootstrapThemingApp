@@ -9,27 +9,57 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="640f85f9-f7d4-4098-8ba6-9d8731d0cd30" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Shared/Components/FaIcon.razor" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shared/Components/IconButton/SalIconButton.razor" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shared/Components/IconButton/SalIconButton.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shared/models/AppIcons.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/assets/fontawesome-pro/custom-fa.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/assets/fontawesome-pro/pro-7/_animated.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/assets/fontawesome-pro/pro-7/_bordered.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/assets/fontawesome-pro/pro-7/_core.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/assets/fontawesome-pro/pro-7/_fa.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/assets/fontawesome-pro/pro-7/_functions.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/assets/fontawesome-pro/pro-7/_icons.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/assets/fontawesome-pro/pro-7/_list.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/assets/fontawesome-pro/pro-7/_mixins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/assets/fontawesome-pro/pro-7/_pulled.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/assets/fontawesome-pro/pro-7/_rotated-flipped.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/assets/fontawesome-pro/pro-7/_shims.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/assets/fontawesome-pro/pro-7/_sizing.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/assets/fontawesome-pro/pro-7/_stacked.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/assets/fontawesome-pro/pro-7/_variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/assets/fontawesome-pro/pro-7/_widths.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/assets/fontawesome-pro/pro-7/fontawesome.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/assets/fontawesome-pro/pro-7/light.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/assets/fontawesome-pro/pro-7/regular.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/assets/webfonts/fa-light-300.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/assets/webfonts/fa-regular-400.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wwwroot/scss/components.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.BootstrapThemingApp.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BootstrapThemingApp.dir/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Components/SalBadge.razor" beforeDir="false" afterPath="$PROJECT_DIR$/Components/SalBadge.razor" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Components/SalForms.razor" beforeDir="false" afterPath="$PROJECT_DIR$/Components/SalForms.razor" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Components/SalIcons.razor" beforeDir="false" afterPath="$PROJECT_DIR$/Components/SalIcons.razor" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Components/Typography.razor" beforeDir="false" afterPath="$PROJECT_DIR$/Components/Typography.razor" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Folder.DotSettings.user" beforeDir="false" afterPath="$PROJECT_DIR$/Folder.DotSettings.user" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BootstrapThemingApp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/BootstrapThemingApp.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Components/Breadcrumbs.razor" beforeDir="false" afterPath="$PROJECT_DIR$/Shared/Components/Breadcrumbs.razor" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Components/Buttons.razor" beforeDir="false" afterPath="$PROJECT_DIR$/Shared/Components/Buttons.razor" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Components/SalBadge.razor" beforeDir="false" afterPath="$PROJECT_DIR$/Shared/Components/SalBadge.razor" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Components/SalCallOuts.razor" beforeDir="false" afterPath="$PROJECT_DIR$/Shared/Components/SalCallOuts.razor" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Components/SalForms.razor" beforeDir="false" afterPath="$PROJECT_DIR$/Shared/Components/SalForms.razor" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Components/SalIcons.razor" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Components/Typography.razor" beforeDir="false" afterPath="$PROJECT_DIR$/Shared/Components/Typography.razor" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Pages/Home.razor" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/Home.razor" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_Imports.razor" beforeDir="false" afterPath="$PROJECT_DIR$/_Imports.razor" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/Debug/net9.0/BootstrapThemingApp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net9.0/BootstrapThemingApp.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/Debug/net9.0/BootstrapThemingApp.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net9.0/BootstrapThemingApp.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/Debug/net9.0/BootstrapThemingApp.staticwebassets.endpoints.json" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net9.0/BootstrapThemingApp.staticwebassets.endpoints.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/Debug/net9.0/BootstrapThemingApp.staticwebassets.runtime.json" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net9.0/BootstrapThemingApp.staticwebassets.runtime.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/Debug/net9.0/wwwroot/_framework/BootstrapThemingApp.5lz18y5wx4.pdb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/Debug/net9.0/wwwroot/_framework/BootstrapThemingApp.5lz18y5wx4.pdb.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/Debug/net9.0/wwwroot/_framework/BootstrapThemingApp.tdjjj3r56t.wasm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/Debug/net9.0/wwwroot/_framework/BootstrapThemingApp.tdjjj3r56t.wasm.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/net9.0/wwwroot/_framework/BootstrapThemingApp.fpei56mak7.wasm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/net9.0/wwwroot/_framework/BootstrapThemingApp.fpei56mak7.wasm.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/net9.0/wwwroot/_framework/BootstrapThemingApp.tclc6ac4xm.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/net9.0/wwwroot/_framework/BootstrapThemingApp.tclc6ac4xm.pdb.gz" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/Debug/net9.0/wwwroot/_framework/blazor.boot.json" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net9.0/wwwroot/_framework/blazor.boot.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/Debug/net9.0/wwwroot/_framework/blazor.boot.json.gz" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net9.0/wwwroot/_framework/blazor.boot.json.gz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/Debug/net9.0/wwwroot/_framework/dotnet.js.gz" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net9.0/wwwroot/_framework/dotnet.js.gz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/Debug/net9.0/wwwroot/_framework/dotnet.js.map.gz" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net9.0/wwwroot/_framework/dotnet.js.map.gz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/Debug/net9.0/wwwroot/_framework/dotnet.runtime.js.map.gz" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net9.0/wwwroot/_framework/dotnet.runtime.js.map.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/customer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/models/customer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/customer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Shared/models/customer.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/net9.0/BootstrapThemingApp.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net9.0/BootstrapThemingApp.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/net9.0/BootstrapThemingApp.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net9.0/BootstrapThemingApp.AssemblyInfoInputs.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/net9.0/BootstrapThemingApp.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net9.0/BootstrapThemingApp.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
@@ -38,13 +68,12 @@
       <change beforePath="$PROJECT_DIR$/obj/Debug/net9.0/BootstrapThemingApp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net9.0/BootstrapThemingApp.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/net9.0/BootstrapThemingApp.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net9.0/BootstrapThemingApp.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/net9.0/blazor.boot.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net9.0/blazor.boot.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net9.0/compressed/2uk2gmi8he-ce8j1qh682.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net9.0/compressed/59vd701vfh-h2gbpf7qir.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net9.0/compressed/6koc9t8wo6-ce8j1qh682.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net9.0/compressed/akxof6u3fo-iq6tkl9y64.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net9.0/compressed/oo0ryr1bkd-tdjjj3r56t.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net9.0/compressed/qlhsp3g07b-084fjpvfre.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net9.0/compressed/rf53xnbr4s-5lz18y5wx4.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net9.0/compressed/1ow3tmvp3f-lhl6xfaka1.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net9.0/compressed/2uk2gmi8he-51is45tqpp.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net9.0/compressed/5w3db92xxd-me8arvycrh.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net9.0/compressed/akxof6u3fo-5zn08qxrce.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net9.0/compressed/oo0ryr1bkd-fpei56mak7.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net9.0/compressed/rf53xnbr4s-tclc6ac4xm.gz" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/net9.0/ref/BootstrapThemingApp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net9.0/ref/BootstrapThemingApp.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/net9.0/refint/BootstrapThemingApp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net9.0/refint/BootstrapThemingApp.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/net9.0/staticwebassets.build.endpoints.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net9.0/staticwebassets.build.endpoints.json" afterDir="false" />
@@ -56,14 +85,9 @@
       <change beforePath="$PROJECT_DIR$/obj/Debug/net9.0/tmp-webcil/BootstrapThemingApp.wasm" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net9.0/tmp-webcil/BootstrapThemingApp.wasm" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/net9.0/webcil/BootstrapThemingApp.wasm" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net9.0/webcil/BootstrapThemingApp.wasm" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/obj/rider.project.model.nuget.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wwwroot/assets/customer.json" beforeDir="false" afterPath="$PROJECT_DIR$/wwwroot/assets/customer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wwwroot/css/theme.css" beforeDir="false" afterPath="$PROJECT_DIR$/wwwroot/css/theme.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wwwroot/css/theme.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/wwwroot/css/theme.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wwwroot/scss/_override.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wwwroot/scss/_override.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wwwroot/scss/_validation.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wwwroot/scss/_validation.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wwwroot/assets/customer.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wwwroot/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/wwwroot/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wwwroot/scss/theme.css" beforeDir="false" afterPath="$PROJECT_DIR$/wwwroot/scss/theme.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wwwroot/scss/theme.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/wwwroot/scss/theme.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wwwroot/scss/theme.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wwwroot/scss/theme.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -108,23 +132,24 @@
     <option name="openDirectoriesWithSingleClick" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;watcher.settings&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "watcher.settings",
+    "ts.external.directory.path": "/Applications/Rider.app/Contents/plugins/javascript-plugin/jsLanguageServicesImpl/external",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="QodanaReportsService">
     <option name="descriptions">
       <ReportDescription localRun="true" path="/private/var/folders/tl/5s0kgk8s07j_phld97b3ddy40000gn/T/qodana_output/qodana.sarif.json" reportGuid="a9ffea40-79fb-4380-a382-0e7e1b912bc7" reportId="BootstrapThemingApp/qodana/2025-06-11" />
@@ -171,7 +196,8 @@
       <updated>1749630837278</updated>
       <workItem from="1749630838583" duration="2880000" />
       <workItem from="1749633730422" duration="3325000" />
-      <workItem from="1749637064789" duration="43586000" />
+      <workItem from="1749637064789" duration="46504000" />
+      <workItem from="1753342346403" duration="10569000" />
     </task>
     <servers />
   </component>

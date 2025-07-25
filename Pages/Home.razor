@@ -1,5 +1,7 @@
 ﻿@page "/"
-@using BootstrapThemingApp.Components
+@using BootstrapThemingApp.Icons
+@using BootstrapThemingApp.Shared.Components
+@using BootstrapThemingApp.Shared.Components.IconButton
 
 <PageTitle>Colours & Typography</PageTitle>
 
@@ -86,7 +88,8 @@
         </div>
 
         <div class="col-md-12">
-            <SalIcons/>
+            <FaIcon Icon="@AppIcons.Download"/>
+            <SalIconButton></SalIconButton>
         </div>
     </div>
 

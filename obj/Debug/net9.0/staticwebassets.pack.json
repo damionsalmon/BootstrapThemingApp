@@ -9,8 +9,88 @@
       "PackagePath": "staticwebassets/BootstrapThemingApp.styles.css"
     },
     {
-      "Id": "/Users/damionrobinson/Documents/Development/BootstrapThemingApp/wwwroot/assets/customer.json",
-      "PackagePath": "staticwebassets/assets/customer.json"
+      "Id": "/Users/damionrobinson/Documents/Development/BootstrapThemingApp/wwwroot/assets/fontawesome-pro/custom-fa.css",
+      "PackagePath": "staticwebassets/assets/fontawesome-pro/custom-fa.css"
+    },
+    {
+      "Id": "/Users/damionrobinson/Documents/Development/BootstrapThemingApp/wwwroot/assets/fontawesome-pro/custom-fa.css.map",
+      "PackagePath": "staticwebassets/assets/fontawesome-pro/custom-fa.css.map"
+    },
+    {
+      "Id": "/Users/damionrobinson/Documents/Development/BootstrapThemingApp/wwwroot/assets/fontawesome-pro/custom-fa.scss",
+      "PackagePath": "staticwebassets/assets/fontawesome-pro/custom-fa.scss"
+    },
+    {
+      "Id": "/Users/damionrobinson/Documents/Development/BootstrapThemingApp/wwwroot/assets/fontawesome-pro/pro-7/_animated.scss",
+      "PackagePath": "staticwebassets/assets/fontawesome-pro/pro-7/_animated.scss"
+    },
+    {
+      "Id": "/Users/damionrobinson/Documents/Development/BootstrapThemingApp/wwwroot/assets/fontawesome-pro/pro-7/_bordered.scss",
+      "PackagePath": "staticwebassets/assets/fontawesome-pro/pro-7/_bordered.scss"
+    },
+    {
+      "Id": "/Users/damionrobinson/Documents/Development/BootstrapThemingApp/wwwroot/assets/fontawesome-pro/pro-7/_core.scss",
+      "PackagePath": "staticwebassets/assets/fontawesome-pro/pro-7/_core.scss"
+    },
+    {
+      "Id": "/Users/damionrobinson/Documents/Development/BootstrapThemingApp/wwwroot/assets/fontawesome-pro/pro-7/_fa.scss",
+      "PackagePath": "staticwebassets/assets/fontawesome-pro/pro-7/_fa.scss"
+    },
+    {
+      "Id": "/Users/damionrobinson/Documents/Development/BootstrapThemingApp/wwwroot/assets/fontawesome-pro/pro-7/_functions.scss",
+      "PackagePath": "staticwebassets/assets/fontawesome-pro/pro-7/_functions.scss"
+    },
+    {
+      "Id": "/Users/damionrobinson/Documents/Development/BootstrapThemingApp/wwwroot/assets/fontawesome-pro/pro-7/_icons.scss",
+      "PackagePath": "staticwebassets/assets/fontawesome-pro/pro-7/_icons.scss"
+    },
+    {
+      "Id": "/Users/damionrobinson/Documents/Development/BootstrapThemingApp/wwwroot/assets/fontawesome-pro/pro-7/_list.scss",
+      "PackagePath": "staticwebassets/assets/fontawesome-pro/pro-7/_list.scss"
+    },
+    {
+      "Id": "/Users/damionrobinson/Documents/Development/BootstrapThemingApp/wwwroot/assets/fontawesome-pro/pro-7/_mixins.scss",
+      "PackagePath": "staticwebassets/assets/fontawesome-pro/pro-7/_mixins.scss"
+    },
+    {
+      "Id": "/Users/damionrobinson/Documents/Development/BootstrapThemingApp/wwwroot/assets/fontawesome-pro/pro-7/_pulled.scss",
+      "PackagePath": "staticwebassets/assets/fontawesome-pro/pro-7/_pulled.scss"
+    },
+    {
+      "Id": "/Users/damionrobinson/Documents/Development/BootstrapThemingApp/wwwroot/assets/fontawesome-pro/pro-7/_rotated-flipped.scss",
+      "PackagePath": "staticwebassets/assets/fontawesome-pro/pro-7/_rotated-flipped.scss"
+    },
+    {
+      "Id": "/Users/damionrobinson/Documents/Development/BootstrapThemingApp/wwwroot/assets/fontawesome-pro/pro-7/_shims.scss",
+      "PackagePath": "staticwebassets/assets/fontawesome-pro/pro-7/_shims.scss"
+    },
+    {
+      "Id": "/Users/damionrobinson/Documents/Development/BootstrapThemingApp/wwwroot/assets/fontawesome-pro/pro-7/_sizing.scss",
+      "PackagePath": "staticwebassets/assets/fontawesome-pro/pro-7/_sizing.scss"
+    },
+    {
+      "Id": "/Users/damionrobinson/Documents/Development/BootstrapThemingApp/wwwroot/assets/fontawesome-pro/pro-7/_stacked.scss",
+      "PackagePath": "staticwebassets/assets/fontawesome-pro/pro-7/_stacked.scss"
+    },
+    {
+      "Id": "/Users/damionrobinson/Documents/Development/BootstrapThemingApp/wwwroot/assets/fontawesome-pro/pro-7/_variables.scss",
+      "PackagePath": "staticwebassets/assets/fontawesome-pro/pro-7/_variables.scss"
+    },
+    {
+      "Id": "/Users/damionrobinson/Documents/Development/BootstrapThemingApp/wwwroot/assets/fontawesome-pro/pro-7/_widths.scss",
+      "PackagePath": "staticwebassets/assets/fontawesome-pro/pro-7/_widths.scss"
+    },
+    {
+      "Id": "/Users/damionrobinson/Documents/Development/BootstrapThemingApp/wwwroot/assets/fontawesome-pro/pro-7/fontawesome.scss",
+      "PackagePath": "staticwebassets/assets/fontawesome-pro/pro-7/fontawesome.scss"
+    },
+    {
+      "Id": "/Users/damionrobinson/Documents/Development/BootstrapThemingApp/wwwroot/assets/fontawesome-pro/pro-7/light.scss",
+      "PackagePath": "staticwebassets/assets/fontawesome-pro/pro-7/light.scss"
+    },
+    {
+      "Id": "/Users/damionrobinson/Documents/Development/BootstrapThemingApp/wwwroot/assets/fontawesome-pro/pro-7/regular.scss",
+      "PackagePath": "staticwebassets/assets/fontawesome-pro/pro-7/regular.scss"
     },
     {
       "Id": "/Users/damionrobinson/Documents/Development/BootstrapThemingApp/wwwroot/assets/salmon_dark.svg",
@@ -19,6 +99,14 @@
     {
       "Id": "/Users/damionrobinson/Documents/Development/BootstrapThemingApp/wwwroot/assets/salmon_light.svg",
       "PackagePath": "staticwebassets/assets/salmon_light.svg"
+    },
+    {
+      "Id": "/Users/damionrobinson/Documents/Development/BootstrapThemingApp/wwwroot/assets/webfonts/fa-light-300.woff2",
+      "PackagePath": "staticwebassets/assets/webfonts/fa-light-300.woff2"
+    },
+    {
+      "Id": "/Users/damionrobinson/Documents/Development/BootstrapThemingApp/wwwroot/assets/webfonts/fa-regular-400.woff2",
+      "PackagePath": "staticwebassets/assets/webfonts/fa-regular-400.woff2"
     },
     {
       "Id": "/Users/damionrobinson/Documents/Development/BootstrapThemingApp/wwwroot/css/bootstrap.min.css",
@@ -459,6 +547,14 @@
     {
       "Id": "/Users/damionrobinson/Documents/Development/BootstrapThemingApp/wwwroot/scss/_validation.scss",
       "PackagePath": "staticwebassets/scss/_validation.scss"
+    },
+    {
+      "Id": "/Users/damionrobinson/Documents/Development/BootstrapThemingApp/wwwroot/scss/components.css",
+      "PackagePath": "staticwebassets/scss/components.css"
+    },
+    {
+      "Id": "/Users/damionrobinson/Documents/Development/BootstrapThemingApp/wwwroot/scss/components.scss",
+      "PackagePath": "staticwebassets/scss/components.scss"
     },
     {
       "Id": "/Users/damionrobinson/Documents/Development/BootstrapThemingApp/wwwroot/scss/functions.css",

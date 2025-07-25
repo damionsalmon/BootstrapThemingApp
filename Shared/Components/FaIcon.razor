@@ -1,0 +1,10 @@
+<i class="@Class"  title="@Title" aria-hidden="true"></i>
+
+@code {
+    [Parameter] public string Icon { get; set; } = ""; // Default icon
+    [Parameter] public string Size { get; set; } = "";  // fa-sm, fa-lg, fa-2x, etc.
+    [Parameter] public string Style { get; set; } = ""; // Optional inline styles
+    [Parameter] public string Title { get; set; } = ""; // Optional tooltip
+
+    private string Class => $"{Style} fa-{Icon} {Size}".Trim();
+}

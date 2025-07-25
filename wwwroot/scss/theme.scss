@@ -1,8 +1,12 @@
+@import "salmon-tokens.scss";
 @import "mixin.scss";
 @import "functions.scss";
-@import "salmon-tokens.scss";
 
 @import "../lib/bootstrap/scss/bootstrap.scss";
 @import "_button.scss";
 @import "_override.scss";
 @import "_validation.scss";
+
+
+///components
+@import "components.scss";
