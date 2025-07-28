@@ -7,7 +7,6 @@
 
 
 
-$btn-border-radius: functions.rem(16);
 
 .btn-primary {
   background-color: var(--bs-primary);
@@ -34,17 +33,10 @@ $btn-border-radius: functions.rem(16);
 }
 //
 //// Alerts
-//.alert-primary {
-//  background-color: var(--bs-primary-bg, rgba(199, 103, 192, 0.1));
-//  border-color: var(--bs-primary);
-//  color: var(--bs-primary);
-//
-//  &:hover {
-//    background-color: var(--bs-primary-hover, var(--bs-primary));
-//    border-color: var(--bs-primary-hover, var(--bs-primary));
-//  }
-//}
-//
+.alert{
+  border: transparent;
+}
+
 //// Badges
 .badge.bg-primary,
 .badge.text-bg-primary {

@@ -3,7 +3,11 @@
 
 // Pass variables into Bootstrap before it's loaded
 @use '../lib/bootstrap/scss/bootstrap' with (
-  $theme-colors: ds.$theme-colors
+  $theme-colors: ds.$theme-colors,
+  $border-radius: ds.$border-radius,
+  $border-radius-sm: ds.$border-radius-sm,
+  $border-radius-lg: ds.$border-radius-lg,
+  $btn-border-radius: ds.$btn-border-radius
 );
 
 // Component-level overrides
