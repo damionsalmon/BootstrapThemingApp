@@ -73,16 +73,18 @@ $error-900: #7A271A;
 $error-950: #55160C;
 
 //salmon
-$system-primary: $brand-600;
-$system-secondary: $gray-700;
+$system-primary:   $brand-600 !default;
+$system-secondary: $gray-700 !default;
 
 // Bootstrap
-$primary:       $system-primary !default;
-$secondary:     $gray-600 !default;
-$success:       $success-600 !default;
-$info:          $brand-25 !default;
-$warning:       $warning-600 !default;
-$danger:        $error-600 !default;
-$light:         $gray-100 !default;
-$dark:          $gray-900 !default;
+$theme-colors: (
+  "primary": $system-primary,
+  "secondary": $system-secondary,
+  "success": $success-500,
+  "danger": $error-600,
+  "warning": $warning-300,
+  "info": $gray-200,
+  "light": $gray-50,
+  "dark": $gray-900
+) !default;
 

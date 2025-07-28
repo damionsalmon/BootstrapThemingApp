@@ -1,59 +1,63 @@
 // Custom Bootstrap Overrides using CSS variables
 @use "sass:color";
-@use "../design-system/radius";
 @use "../design-system/colors";
+@use "../design-system/radius";
 @use "../design-system/mixin.scss";
 @use "../design-system/functions.scss";
+
+
+
+$btn-border-radius: functions.rem(16);
 
 .btn-primary {
   background-color: var(--bs-primary);
   border-color: var(--bs-primary-border, var(--bs-primary));
-  color: var(--bs-btn-color);
+  //color: var(--bs-btn-color);
 
   &:hover {
     background-color: var(--bs-primary-hover, var(--bs-primary));
     border-color: var(--bs-primary-hover, var(--bs-primary));
-    color: var(--bs-btn-color-hover, var(--bs-btn-color));
+    //color: var(--bs-btn-color-hover, var(--bs-btn-color));
   }
 }
-
-// Nav links and active pills
+//
+//// Nav links and active pills
 .nav-link.active,
 .nav-pills .nav-link.active {
-  background-color: var(--bs-primary);
+  //background-color: var(--bs-primary);
   color: var(--bs-btn-color);
 
-  &:hover {
-    background-color: var(--bs-primary-hover, var(--bs-primary));
-    color: var(--bs-btn-color-hover, var(--bs-btn-color));
-  }
+  //&:hover {
+  //  background-color: var(--bs-primary-hover, var(--bs-primary));
+  //  color: var(--bs-btn-color-hover, var(--bs-btn-color));
+  //}
 }
-
-// Alerts
-.alert-primary {
-  background-color: var(--bs-primary-bg, rgba(199, 103, 192, 0.1));
-  border-color: var(--bs-primary);
-  color: var(--bs-primary);
-
-  &:hover {
-    background-color: var(--bs-primary-hover, var(--bs-primary));
-    border-color: var(--bs-primary-hover, var(--bs-primary));
-  }
-}
-
-// Badges
+//
+//// Alerts
+//.alert-primary {
+//  background-color: var(--bs-primary-bg, rgba(199, 103, 192, 0.1));
+//  border-color: var(--bs-primary);
+//  color: var(--bs-primary);
+//
+//  &:hover {
+//    background-color: var(--bs-primary-hover, var(--bs-primary));
+//    border-color: var(--bs-primary-hover, var(--bs-primary));
+//  }
+//}
+//
+//// Badges
 .badge.bg-primary,
 .badge.text-bg-primary {
   background-color: var(--bs-primary);
-  color: var(--bs-btn-color);
+  //color: var(--bs-btn-color);
 
   &:hover {
     background-color: var(--bs-primary-hover, var(--bs-primary));
-    color: var(--bs-btn-color-hover, var(--bs-btn-color));
+    //color: var(--bs-btn-color-hover, var(--bs-btn-color));
   }
 }
-
-// Progress bars
+//
+//// Progress bars
 .progress-bar.bg-primary {
   background-color: var(--bs-primary);
 
@@ -62,7 +66,7 @@
   }
 }
 
-// Text utility
+//// Text utility
 .text-primary {
   color: var(--bs-primary);
 
@@ -70,8 +74,8 @@
     color: var(--bs-primary-hover, var(--bs-primary));
   }
 }
-
-// Border utility
+//
+//// Border utility
 .border-primary {
   border-color: var(--bs-primary);
 
@@ -79,8 +83,8 @@
     border-color: var(--bs-primary-hover, var(--bs-primary));
   }
 }
-
-// Pagination
+//
+//// Pagination
 .page-item.active .page-link {
   background-color: var(--bs-primary);
   border-color: var(--bs-primary);
@@ -121,8 +125,8 @@
   border-color: var(--bs-primary);
   box-shadow: 0 0 0 0.25rem rgba(var(--bs-primary-rgb, 199, 103, 192), 0.25);
 }
-
-// Modal header with .bg-primary
+//
+//// Modal header with .bg-primary
 .modal-header.bg-primary {
   background-color: var(--bs-primary);
   color: var(--bs-btn-color);
@@ -133,7 +137,7 @@
   }
 }
 
-// Table primary row
+//// Table primary row
 .table-primary {
   background-color: var(--bs-primary-bg, rgba(199, 103, 192, 0.1));
   color: var(--bs-primary);
@@ -144,7 +148,7 @@
   }
 }
 
-// Button links
+//// Button links
 .btn-link {
   color: var(--bs-primary);
   background-color: transparent;
@@ -155,8 +159,8 @@
     background-color: transparent;
   }
 }
-
-// Standard anchor links
+//
+//// Standard anchor links
 a {
   color: var(--bs-primary);
   text-decoration-color: var(--bs-primary);
@@ -167,7 +171,7 @@ a {
   }
 }
 
-// Breadcrumbs
+//// Breadcrumbs
 
 .breadcrumb-item > a {
   color: var(--bs-primary);
@@ -182,18 +186,18 @@ a {
   filter: invert(40%) sepia(100%) saturate(1000%) hue-rotate(280deg);
 }
 
-// Form Controls
+//// Form Controls
 .form-control {
   //@include skeuo-button-style;
-  //border-color: var(--bs-primary-border, var(--bs-primary)) ;
+  border-color: var(--bs-primary-border, var(--bs-primary)) ;
   color: var(--bs-body-color);
   background-color: var(--bs-body-bg);
   //border-radius: var(--btn-radius, 0.375rem) ;
 
 
   border-radius: functions.rem(8);
-  //border: 1px solid var(--Foundation-Border-border-primary, #CDD5DF);
-  //background: var(--Foundation-Bckgrounds-bg-primary, #FFF);
+  border: 1px solid var(--Foundation-Border-border-primary, #CDD5DF);
+  background: var(--Foundation-Bckgrounds-bg-primary, #FFF);
 
   &:focus {
     border-color: var(--bs-primary);

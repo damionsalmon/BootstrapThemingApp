@@ -4,60 +4,60 @@
 // Primary Button
 .btn-primary {
   @include mixin.skeuo-button-style;
-  background-color: buttons.$btn-primary-bg;
-  color: buttons.$btn-primary-color;
-  &:hover {
-    background-color: buttons.$btn-primary-bg-hover;
-    color: buttons.$btn-primary-color-hover;
-  }
+  //background-color: buttons.$btn-primary-bg;
+  //color: buttons.$btn-primary-color;
+  //&:hover {
+  //  background-color: buttons.$btn-primary-bg-hover;
+  //  color: buttons.$btn-primary-color-hover;
+  //}
 }
 
 // Secondary Button
 .btn-secondary {
   @include mixin.skeuo-button-style;
-  background-color: buttons.$btn-secondary-bg;
-  color: buttons.$btn-secondary-color;
-
-  &:hover {
-    background-color: buttons.$btn-secondary-bg-hover;
-    color: buttons.$btn-secondary-color-hover;
-  }
+  //background-color: buttons.$btn-secondary-bg;
+  //color: buttons.$btn-secondary-color;
+  //
+  //&:hover {
+  //  background-color: buttons.$btn-secondary-bg-hover;
+  //  color: buttons.$btn-secondary-color-hover;
+  //}
 }
 
 // Link Button
 .btn-link {
-  background-color: buttons.$btn-link-bg;
-  color: buttons.$btn-link-color;
-  border: none;
-
-  &:hover {
-    background-color: buttons.$btn-link-bg-hover;
-    color: buttons.$btn-link-color-hover;
-  }
+  //background-color: buttons.$btn-link-bg;
+  //color: buttons.$btn-link-color;
+  //border: none;
+  //
+  //&:hover {
+  //  background-color: buttons.$btn-link-bg-hover;
+  //  color: buttons.$btn-link-color-hover;
+  //}
 }
 
 // Neutral Button
 .btn-neutral {
-  background-color: buttons.$btn-neutral-bg;
-  color: buttons.$btn-neutral-color;
-  border: none;
-
-  &:hover {
-    background-color: buttons.$btn-neutral-bg-hover;
-    color: buttons.$btn-neutral-color-hover;
-  }
+  //background-color: buttons.$btn-neutral-bg;
+  //color: buttons.$btn-neutral-color;
+  //border: none;
+  //
+  //&:hover {
+  //  background-color: buttons.$btn-neutral-bg-hover;
+  //  color: buttons.$btn-neutral-color-hover;
+  //}
 }
 
 // Destructive Button
 .btn-error {
-  background-color: buttons.$btn-error-bg;
-  color: buttons.$btn-error-color;
-  border: none;
-
-  &:hover {
-    background-color: buttons.$btn-error-bg-hover;
-    color: buttons.$btn-error-color-hover;
-  }
+  //background-color: buttons.$btn-error-bg;
+  //color: buttons.$btn-error-color;
+  //border: none;
+  //
+  //&:hover {
+  //  background-color: buttons.$btn-error-bg-hover;
+  //  color: buttons.$btn-error-color-hover;
+  //}
 }
 
 

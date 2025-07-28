@@ -9,28 +9,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="640f85f9-f7d4-4098-8ba6-9d8731d0cd30" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Shared/_shared.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wwwroot/scss/design-system/_buttons.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wwwroot/scss/design-system/_colors.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wwwroot/scss/design-system/_index.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wwwroot/scss/design-system/_maps.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wwwroot/scss/design-system/_radius.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wwwroot/scss/design-system/_spacing.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wwwroot/scss/design-system/_typography.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wwwroot/scss/overrides/overrides.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shared/_shared.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.BootstrapThemingApp.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BootstrapThemingApp.dir/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BootstrapThemingApp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/BootstrapThemingApp.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Pages/Home.razor" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/Home.razor" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Shared/Components/IconButton/SalIconButton.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Shared/Components/IconButton/SalIconButton.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Shared/Components/IconButton/SalIconButton.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Shared/Components/IconButton/_SalIconButton.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Shared/Components/IconButton/_SalIconButton.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Shared/Components/IconButton/_SalIconButton.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Shared/_shared.scss" beforeDir="false" afterPath="$PROJECT_DIR$/Shared/_shared.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/Debug/net9.0/BootstrapThemingApp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net9.0/BootstrapThemingApp.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/Debug/net9.0/BootstrapThemingApp.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net9.0/BootstrapThemingApp.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/Debug/net9.0/BootstrapThemingApp.staticwebassets.endpoints.json" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net9.0/BootstrapThemingApp.staticwebassets.endpoints.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/Debug/net9.0/BootstrapThemingApp.staticwebassets.runtime.json" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net9.0/BootstrapThemingApp.staticwebassets.runtime.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/Debug/net9.0/wwwroot/_framework/BootstrapThemingApp.7l3442pyy3.pdb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/Debug/net9.0/wwwroot/_framework/BootstrapThemingApp.7l3442pyy3.pdb.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/Debug/net9.0/wwwroot/_framework/BootstrapThemingApp.gntut158l9.wasm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/Debug/net9.0/wwwroot/_framework/BootstrapThemingApp.gntut158l9.wasm.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/net9.0/wwwroot/_framework/BootstrapThemingApp.3btpczs6nw.wasm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/net9.0/wwwroot/_framework/BootstrapThemingApp.3btpczs6nw.wasm.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/net9.0/wwwroot/_framework/BootstrapThemingApp.urb18ru0xg.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/net9.0/wwwroot/_framework/BootstrapThemingApp.urb18ru0xg.pdb.gz" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/Debug/net9.0/wwwroot/_framework/blazor.boot.json" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net9.0/wwwroot/_framework/blazor.boot.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/Debug/net9.0/wwwroot/_framework/blazor.boot.json.gz" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net9.0/wwwroot/_framework/blazor.boot.json.gz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/net9.0/BootstrapThemingApp.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net9.0/BootstrapThemingApp.AssemblyInfo.cs" afterDir="false" />
@@ -40,21 +32,15 @@
       <change beforePath="$PROJECT_DIR$/obj/Debug/net9.0/BootstrapThemingApp.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net9.0/BootstrapThemingApp.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/net9.0/BootstrapThemingApp.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net9.0/BootstrapThemingApp.sourcelink.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/net9.0/blazor.boot.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net9.0/blazor.boot.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net9.0/compressed/2uk2gmi8he-k8mdpkd3sr.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net9.0/compressed/59vd701vfh-wy0bgm69zz.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net9.0/compressed/5diu6lq0vl-sd49kukj6w.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net9.0/compressed/6koc9t8wo6-51is45tqpp.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net9.0/compressed/akxof6u3fo-pw45179i1b.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net9.0/compressed/ci7oec2j1q-4pga7nbv7v.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net9.0/compressed/e2em4urbw4-7pr4nxuq4d.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net9.0/compressed/ei0d3u81y4-7pr4nxuq4d.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net9.0/compressed/hlr32aszn2-5zy7fs3oy0.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net9.0/compressed/m30u7xd9j1-msrvihjheh.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net9.0/compressed/oo0ryr1bkd-gntut158l9.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net9.0/compressed/qlhsp3g07b-oweljxan87.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net9.0/compressed/rf53xnbr4s-7l3442pyy3.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net9.0/compressed/sn5uwm5j6m-0mqprte52t.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net9.0/compressed/th7fha6atf-4pga7nbv7v.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net9.0/compressed/2uk2gmi8he-uaxuyi4gwd.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net9.0/compressed/59vd701vfh-h9e0pf8wh5.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net9.0/compressed/6koc9t8wo6-ea79ck267e.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net9.0/compressed/akxof6u3fo-y7fadgxe11.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net9.0/compressed/czcezs2ekg-49uzrhu8pl.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net9.0/compressed/oo0ryr1bkd-3btpczs6nw.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net9.0/compressed/qlhsp3g07b-k07k52gnrj.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net9.0/compressed/rf53xnbr4s-urb18ru0xg.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net9.0/compressed/wk9evuqfl2-tbwamlk3pv.gz" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/net9.0/ref/BootstrapThemingApp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net9.0/ref/BootstrapThemingApp.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/net9.0/refint/BootstrapThemingApp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net9.0/refint/BootstrapThemingApp.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/net9.0/staticwebassets.build.endpoints.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net9.0/staticwebassets.build.endpoints.json" afterDir="false" />
@@ -65,25 +51,119 @@
       <change beforePath="$PROJECT_DIR$/obj/Debug/net9.0/staticwebassets/msbuild.BootstrapThemingApp.Microsoft.AspNetCore.StaticWebAssets.props" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net9.0/staticwebassets/msbuild.BootstrapThemingApp.Microsoft.AspNetCore.StaticWebAssets.props" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/net9.0/tmp-webcil/BootstrapThemingApp.wasm" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net9.0/tmp-webcil/BootstrapThemingApp.wasm" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/net9.0/webcil/BootstrapThemingApp.wasm" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net9.0/webcil/BootstrapThemingApp.wasm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wwwroot/css/bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wwwroot/css/theme.css" beforeDir="false" afterPath="$PROJECT_DIR$/wwwroot/css/theme.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wwwroot/css/theme.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/wwwroot/css/theme.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wwwroot/scss/_button.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wwwroot/scss/overrides/_button.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wwwroot/scss/_override.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wwwroot/scss/_override.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wwwroot/scss/_override.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wwwroot/scss/overrides/_custom_bs_override.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wwwroot/scss/_validation.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wwwroot/scss/overrides/_validation.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wwwroot/scss/components.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wwwroot/scss/components.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wwwroot/scss/functions.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wwwroot/scss/functions.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wwwroot/scss/functions.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wwwroot/scss/design-system/_functions.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wwwroot/scss/mixin.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wwwroot/scss/mixin.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wwwroot/scss/mixin.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wwwroot/scss/design-system/_mixin.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wwwroot/scss/salmon-tokens.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wwwroot/scss/theme.css" beforeDir="false" afterPath="$PROJECT_DIR$/wwwroot/scss/theme.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wwwroot/scss/theme.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/wwwroot/scss/theme.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wwwroot/css/theme.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wwwroot/css/theme.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wwwroot/lib/bootstrap/scss/_accordion.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wwwroot/lib/bootstrap/scss/_accordion.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wwwroot/lib/bootstrap/scss/_alert.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wwwroot/lib/bootstrap/scss/_alert.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wwwroot/lib/bootstrap/scss/_badge.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wwwroot/lib/bootstrap/scss/_badge.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wwwroot/lib/bootstrap/scss/_breadcrumb.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wwwroot/lib/bootstrap/scss/_breadcrumb.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wwwroot/lib/bootstrap/scss/_button-group.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wwwroot/lib/bootstrap/scss/_button-group.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wwwroot/lib/bootstrap/scss/_buttons.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wwwroot/lib/bootstrap/scss/_buttons.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wwwroot/lib/bootstrap/scss/_card.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wwwroot/lib/bootstrap/scss/_card.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wwwroot/lib/bootstrap/scss/_carousel.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wwwroot/lib/bootstrap/scss/_carousel.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wwwroot/lib/bootstrap/scss/_close.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wwwroot/lib/bootstrap/scss/_close.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wwwroot/lib/bootstrap/scss/_containers.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wwwroot/lib/bootstrap/scss/_containers.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wwwroot/lib/bootstrap/scss/_dropdown.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wwwroot/lib/bootstrap/scss/_dropdown.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wwwroot/lib/bootstrap/scss/_forms.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wwwroot/lib/bootstrap/scss/_forms.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wwwroot/lib/bootstrap/scss/_functions.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wwwroot/lib/bootstrap/scss/_functions.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wwwroot/lib/bootstrap/scss/_grid.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wwwroot/lib/bootstrap/scss/_grid.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wwwroot/lib/bootstrap/scss/_helpers.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wwwroot/lib/bootstrap/scss/_helpers.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wwwroot/lib/bootstrap/scss/_images.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wwwroot/lib/bootstrap/scss/_images.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wwwroot/lib/bootstrap/scss/_list-group.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wwwroot/lib/bootstrap/scss/_list-group.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wwwroot/lib/bootstrap/scss/_maps.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wwwroot/lib/bootstrap/scss/_mixins.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wwwroot/lib/bootstrap/scss/_mixins.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wwwroot/lib/bootstrap/scss/_modal.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wwwroot/lib/bootstrap/scss/_modal.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wwwroot/lib/bootstrap/scss/_nav.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wwwroot/lib/bootstrap/scss/_nav.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wwwroot/lib/bootstrap/scss/_navbar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wwwroot/lib/bootstrap/scss/_navbar.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wwwroot/lib/bootstrap/scss/_offcanvas.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wwwroot/lib/bootstrap/scss/_offcanvas.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wwwroot/lib/bootstrap/scss/_pagination.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wwwroot/lib/bootstrap/scss/_pagination.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wwwroot/lib/bootstrap/scss/_placeholders.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wwwroot/lib/bootstrap/scss/_popover.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wwwroot/lib/bootstrap/scss/_popover.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wwwroot/lib/bootstrap/scss/_progress.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wwwroot/lib/bootstrap/scss/_progress.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wwwroot/lib/bootstrap/scss/_reboot.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wwwroot/lib/bootstrap/scss/_reboot.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wwwroot/lib/bootstrap/scss/_root.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wwwroot/lib/bootstrap/scss/_root.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wwwroot/lib/bootstrap/scss/_spinners.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wwwroot/lib/bootstrap/scss/_spinners.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wwwroot/lib/bootstrap/scss/_tables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wwwroot/lib/bootstrap/scss/_tables.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wwwroot/lib/bootstrap/scss/_toasts.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wwwroot/lib/bootstrap/scss/_toasts.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wwwroot/lib/bootstrap/scss/_tooltip.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wwwroot/lib/bootstrap/scss/_tooltip.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wwwroot/lib/bootstrap/scss/_transitions.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wwwroot/lib/bootstrap/scss/_transitions.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wwwroot/lib/bootstrap/scss/_type.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wwwroot/lib/bootstrap/scss/_type.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wwwroot/lib/bootstrap/scss/_utilities.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wwwroot/lib/bootstrap/scss/_utilities.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wwwroot/lib/bootstrap/scss/_variables-dark.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wwwroot/lib/bootstrap/scss/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wwwroot/lib/bootstrap/scss/_variables.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wwwroot/lib/bootstrap/scss/bootstrap-grid.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wwwroot/lib/bootstrap/scss/bootstrap-grid.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wwwroot/lib/bootstrap/scss/bootstrap-reboot.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wwwroot/lib/bootstrap/scss/bootstrap-reboot.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wwwroot/lib/bootstrap/scss/bootstrap-utilities.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wwwroot/lib/bootstrap/scss/bootstrap-utilities.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wwwroot/lib/bootstrap/scss/bootstrap.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wwwroot/lib/bootstrap/scss/bootstrap.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wwwroot/lib/bootstrap/scss/forms/_floating-labels.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wwwroot/lib/bootstrap/scss/forms/_floating-labels.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wwwroot/lib/bootstrap/scss/forms/_form-check.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wwwroot/lib/bootstrap/scss/forms/_form-check.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wwwroot/lib/bootstrap/scss/forms/_form-control.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wwwroot/lib/bootstrap/scss/forms/_form-control.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wwwroot/lib/bootstrap/scss/forms/_form-range.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wwwroot/lib/bootstrap/scss/forms/_form-range.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wwwroot/lib/bootstrap/scss/forms/_form-select.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wwwroot/lib/bootstrap/scss/forms/_form-select.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wwwroot/lib/bootstrap/scss/forms/_form-text.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wwwroot/lib/bootstrap/scss/forms/_form-text.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wwwroot/lib/bootstrap/scss/forms/_input-group.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wwwroot/lib/bootstrap/scss/forms/_input-group.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wwwroot/lib/bootstrap/scss/forms/_labels.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wwwroot/lib/bootstrap/scss/forms/_labels.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wwwroot/lib/bootstrap/scss/forms/_validation.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wwwroot/lib/bootstrap/scss/forms/_validation.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wwwroot/lib/bootstrap/scss/helpers/_clearfix.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wwwroot/lib/bootstrap/scss/helpers/_clearfix.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wwwroot/lib/bootstrap/scss/helpers/_color-bg.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wwwroot/lib/bootstrap/scss/helpers/_colored-links.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wwwroot/lib/bootstrap/scss/helpers/_colored-links.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wwwroot/lib/bootstrap/scss/helpers/_focus-ring.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wwwroot/lib/bootstrap/scss/helpers/_icon-link.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wwwroot/lib/bootstrap/scss/helpers/_position.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wwwroot/lib/bootstrap/scss/helpers/_position.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wwwroot/lib/bootstrap/scss/helpers/_ratio.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wwwroot/lib/bootstrap/scss/helpers/_ratio.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wwwroot/lib/bootstrap/scss/helpers/_stacks.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wwwroot/lib/bootstrap/scss/helpers/_stretched-link.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wwwroot/lib/bootstrap/scss/helpers/_stretched-link.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wwwroot/lib/bootstrap/scss/helpers/_text-truncation.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wwwroot/lib/bootstrap/scss/helpers/_text-truncation.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wwwroot/lib/bootstrap/scss/helpers/_visually-hidden.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wwwroot/lib/bootstrap/scss/helpers/_visually-hidden.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wwwroot/lib/bootstrap/scss/helpers/_vr.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wwwroot/lib/bootstrap/scss/mixins/_alert.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wwwroot/lib/bootstrap/scss/mixins/_alert.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wwwroot/lib/bootstrap/scss/mixins/_backdrop.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wwwroot/lib/bootstrap/scss/mixins/_banner.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wwwroot/lib/bootstrap/scss/mixins/_border-radius.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wwwroot/lib/bootstrap/scss/mixins/_border-radius.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wwwroot/lib/bootstrap/scss/mixins/_box-shadow.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wwwroot/lib/bootstrap/scss/mixins/_box-shadow.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wwwroot/lib/bootstrap/scss/mixins/_breakpoints.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wwwroot/lib/bootstrap/scss/mixins/_breakpoints.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wwwroot/lib/bootstrap/scss/mixins/_buttons.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wwwroot/lib/bootstrap/scss/mixins/_buttons.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wwwroot/lib/bootstrap/scss/mixins/_caret.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wwwroot/lib/bootstrap/scss/mixins/_caret.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wwwroot/lib/bootstrap/scss/mixins/_clearfix.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wwwroot/lib/bootstrap/scss/mixins/_clearfix.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wwwroot/lib/bootstrap/scss/mixins/_color-mode.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wwwroot/lib/bootstrap/scss/mixins/_color-scheme.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wwwroot/lib/bootstrap/scss/mixins/_color-scheme.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wwwroot/lib/bootstrap/scss/mixins/_container.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wwwroot/lib/bootstrap/scss/mixins/_container.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wwwroot/lib/bootstrap/scss/mixins/_deprecate.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wwwroot/lib/bootstrap/scss/mixins/_deprecate.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wwwroot/lib/bootstrap/scss/mixins/_forms.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wwwroot/lib/bootstrap/scss/mixins/_forms.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wwwroot/lib/bootstrap/scss/mixins/_gradients.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wwwroot/lib/bootstrap/scss/mixins/_gradients.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wwwroot/lib/bootstrap/scss/mixins/_grid.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wwwroot/lib/bootstrap/scss/mixins/_grid.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wwwroot/lib/bootstrap/scss/mixins/_image.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wwwroot/lib/bootstrap/scss/mixins/_image.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wwwroot/lib/bootstrap/scss/mixins/_list-group.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wwwroot/lib/bootstrap/scss/mixins/_list-group.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wwwroot/lib/bootstrap/scss/mixins/_lists.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wwwroot/lib/bootstrap/scss/mixins/_lists.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wwwroot/lib/bootstrap/scss/mixins/_pagination.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wwwroot/lib/bootstrap/scss/mixins/_pagination.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wwwroot/lib/bootstrap/scss/mixins/_reset-text.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wwwroot/lib/bootstrap/scss/mixins/_reset-text.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wwwroot/lib/bootstrap/scss/mixins/_resize.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wwwroot/lib/bootstrap/scss/mixins/_resize.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wwwroot/lib/bootstrap/scss/mixins/_table-variants.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wwwroot/lib/bootstrap/scss/mixins/_table-variants.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wwwroot/lib/bootstrap/scss/mixins/_text-truncate.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wwwroot/lib/bootstrap/scss/mixins/_text-truncate.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wwwroot/lib/bootstrap/scss/mixins/_transition.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wwwroot/lib/bootstrap/scss/mixins/_transition.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wwwroot/lib/bootstrap/scss/mixins/_utilities.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wwwroot/lib/bootstrap/scss/mixins/_utilities.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wwwroot/lib/bootstrap/scss/mixins/_visually-hidden.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wwwroot/lib/bootstrap/scss/mixins/_visually-hidden.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wwwroot/lib/bootstrap/scss/tests/mixins/_auto-import-of-variables-dark.test.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wwwroot/lib/bootstrap/scss/tests/mixins/_color-modes.test.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wwwroot/lib/bootstrap/scss/tests/mixins/_media-query-color-mode-full.test.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wwwroot/lib/bootstrap/scss/tests/mixins/_utilities.test.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wwwroot/lib/bootstrap/scss/tests/utilities/_api.test.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wwwroot/lib/bootstrap/scss/utilities/_api.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wwwroot/lib/bootstrap/scss/utilities/_api.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wwwroot/lib/bootstrap/scss/vendor/_rfs.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wwwroot/lib/bootstrap/scss/vendor/_rfs.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wwwroot/scss/design-system/_buttons.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wwwroot/scss/design-system/_buttons.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wwwroot/scss/design-system/_colors.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wwwroot/scss/design-system/_colors.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wwwroot/scss/design-system/_functions.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wwwroot/scss/design-system/_functions.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wwwroot/scss/design-system/_maps.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wwwroot/scss/design-system/_maps.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wwwroot/scss/design-system/_radius.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wwwroot/scss/design-system/_radius.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wwwroot/scss/design-system/_spacing.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wwwroot/scss/design-system/_spacing.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wwwroot/scss/overrides/_button.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wwwroot/scss/overrides/_button.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wwwroot/scss/overrides/_custom_bs_override.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wwwroot/scss/overrides/_custom_bs_override.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wwwroot/scss/overrides/_validation.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wwwroot/scss/overrides/overrides.css" beforeDir="false" afterPath="$PROJECT_DIR$/wwwroot/scss/overrides/overrides.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wwwroot/scss/overrides/overrides.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/wwwroot/scss/overrides/overrides.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wwwroot/scss/overrides/overrides.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wwwroot/scss/overrides/overrides.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wwwroot/scss/theme.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wwwroot/scss/theme.css.map" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/wwwroot/scss/theme.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wwwroot/scss/theme.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -195,7 +275,7 @@
       <workItem from="1749633730422" duration="3325000" />
       <workItem from="1749637064789" duration="46504000" />
       <workItem from="1753342346403" duration="21522000" />
-      <workItem from="1753445529410" duration="7315000" />
+      <workItem from="1753445529410" duration="14672000" />
     </task>
     <servers />
   </component>

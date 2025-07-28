@@ -1,7 +1,13 @@
-// Custom Variables, Functions and Mixin
-@use'design-system/index.scss';
-@use '../lib/bootstrap/scss/bootstrap.scss';
-@use'overrides/overrides.scss';
+// Import token system first, exposing all variables and maps
+@use 'design-system/index' as ds;
 
-// Components
+// Pass variables into Bootstrap before it's loaded
+@use '../lib/bootstrap/scss/bootstrap' with (
+  $theme-colors: ds.$theme-colors
+);
+
+// Component-level overrides
+@use 'overrides/overrides';
+
+// Shared components
 @use '../../Shared/shared';

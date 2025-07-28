@@ -2,6 +2,18 @@
 @using BootstrapThemingApp.Icons
 @using BootstrapThemingApp.Shared.Components
 @using BootstrapThemingApp.Shared.Components.IconButton
+@using BlazorBootstrap
+@using BootstrapThemingApp.Icons
+@using BootstrapThemingApp.Shared.Components
+@using BootstrapThemingApp.Shared.Components.IconButton
+@using Microsoft.AspNetCore.Components.Web
+@using Microsoft.JSInterop
+@using BlazorBootstrap
+@using BootstrapThemingApp.Icons
+@using BootstrapThemingApp.Shared.Components
+@using BootstrapThemingApp.Shared.Components.IconButton
+@using Microsoft.AspNetCore.Components.Web
+@using Microsoft.JSInterop
 
 <PageTitle>Colours & Typography</PageTitle>
 
@@ -76,6 +88,34 @@
         </div>
     </div>
     <div class="row mt-5">
+        <div class="col-md-12">
+
+            @{
+                const int t = 0;
+            }
+
+            <div class="icon-@t">
+                @foreach (var icon in typeof(AppIcons).GetFields(System.Reflection.BindingFlags.Public | System.Reflection.BindingFlags.Static))
+                {
+                    <div class="d-inline-block text-center m-2">
+                        <FaIcon Icon="@icon.GetValue(null).ToString()" Style="@AppIconStyle.Regular" />
+                        <div class="small">@icon.Name</div>
+                    </div>
+                }
+            </div>
+            
+            <SalIconButton></SalIconButton>
+        </div>
+        <div class="col-md-12">
+            <div>
+                <Alert Color="AlertColor.Primary"> A simple primary alert - check it out!</Alert>
+                <Alert Color="AlertColor.Secondary"> A simple secondary alert - check it out!</Alert>
+                <Alert Color="AlertColor.Success"> A simple success alert - check it out!</Alert>
+                <Alert Color="AlertColor.Warning"> A simple warning alert - check it out!</Alert>
+                <Alert Color="AlertColor.Info"> A simple info alert - check it out!</Alert>
+                <Alert Color="AlertColor.Light"> A simple light alert - check it out!</Alert>
+            </div>
+        </div>
         <div class="col-md-6">
             <Typography/>
         </div>
@@ -87,10 +127,7 @@
             <SalForms/>
         </div>
 
-        <div class="col-md-12">
-            <FaIcon Icon="@AppIcons.Download"/>
-            <SalIconButton></SalIconButton>
-        </div>
+
     </div>
 
 </div>

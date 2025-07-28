@@ -1,8 +1,11 @@
+@use "../../../wwwroot/scss/design-system/index.scss" as *;
+
 .sal-icon-button {
-  display: flex;
   width: rem(58);
   height: rem(58);
   padding: $spacing-3xl;
+  color: $system-primary;
+  display: flex;
   justify-content: center;
   align-items: center;
 }

@@ -1,13 +1,14 @@
-@import "mixins/banner";
-@include bsBanner("");
-
+/*!
+ * Bootstrap v5.0.2 (https://getbootstrap.com/)
+ * Copyright 2011-2021 The Bootstrap Authors
+ * Copyright 2011-2021 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
+ */
 
 // scss-docs-start import-stack
 // Configuration
 @import "functions";
 @import "variables";
-@import "variables-dark";
-@import "maps";
 @import "mixins";
 @import "utilities";
 
@@ -42,7 +43,6 @@
 @import "carousel";
 @import "spinners";
 @import "offcanvas";
-@import "placeholders";
 
 // Helpers
 @import "helpers";

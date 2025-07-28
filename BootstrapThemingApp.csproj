@@ -36,5 +36,9 @@
         <AdditionalFiles Include="Shared\Components\Typography.razor"/>
     </ItemGroup>
 
+    <ItemGroup>
+      <Folder Include="wwwroot\css\" />
+    </ItemGroup>
+
 
 </Project>

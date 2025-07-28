@@ -34,11 +34,9 @@
 // Type display classes
 @each $display, $font-size in $display-font-sizes {
   .display-#{$display} {
-    font-family: $display-font-family;
-    font-style: $display-font-style;
+    @include font-size($font-size);
     font-weight: $display-font-weight;
     line-height: $display-line-height;
-    @include font-size($font-size);
   }
 }
 

@@ -41,7 +41,7 @@ $btn-error-color-hover: salmonToken.$white;
 
 
 $link-color: salmonToken.$system-primary;
-$btn-box-shadow: 1px 0px 0px 1px var(--Colours-Grays-100, #EEF2F6), 0px 1px 0px 0px var(--Colours-Grays-50, #F8FAFC), 0px 3px 2px 0px var(--Colours-Grays-50, #F8FAFC);
+$btn-box-shadow: 1px 0px 0px 1px salmonToken.$gray-100, 0px 1px 0px 0px salmonToken.$gray-50, 0px 3px 2px 0px salmonToken.$gray-50;
 
 $btn-box-shadow-skeuo: 0px 0px 0px 2px salmonToken.$gray-100,
 0px -2px 0px 0px salmonToken.$gray-50,
