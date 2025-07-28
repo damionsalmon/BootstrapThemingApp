@@ -1,0 +1,48 @@
+@use "sass:color";
+@use "colors" as salmonToken;
+
+// Primary
+$btn-primary-base: salmonToken.$system-primary;
+$btn-primary-bg: var(--system-primary);
+$btn-primary-bg-hover: var(--system-primary-hover);
+$btn-primary-border-color: var(--system-primary-border);
+$btn-primary-color: salmonToken.$white;
+$btn-primary-color-hover: salmonToken.$white;
+
+// Secondary
+$btn-secondary-base: salmonToken.$system-secondary;
+$btn-secondary-bg: salmonToken.$white;
+$btn-secondary-bg-hover: salmonToken.$gray-50;
+$btn-secondary-border-color: var(--system-secondary-border);
+$btn-secondary-color: $btn-secondary-base;
+$btn-secondary-color-hover: var(--system-secondary-hover);
+
+//  Link
+$btn-link-base: salmonToken.$system-primary;
+$btn-link-bg: color.scale($btn-link-base, $lightness: 45%);
+$btn-link-bg-hover: color.scale($btn-link-base, $lightness: 30%);
+$btn-link-color: $btn-link-base;
+$btn-link-color-hover: color.scale($btn-link-base, $lightness: -10%);
+
+//  Neutral (Text-style button)
+$btn-neutral-base: salmonToken.$gray-500;
+$btn-neutral-bg: transparent;
+$btn-neutral-bg-hover: color.scale($btn-neutral-base, $lightness: 30%);
+$btn-neutral-color: $btn-neutral-base;
+$btn-neutral-color-hover: color.scale($btn-neutral-base, $lightness: -20%);
+
+// Destructive (Error)
+$btn-error-base: salmonToken.$error-600;
+$btn-error-bg: var(--system-error);
+$btn-error-bg-hover: var(--system-error-hover);
+$btn-error-border-color: var(--system-error-border);
+$btn-error-color: salmonToken.$white;
+$btn-error-color-hover: salmonToken.$white;
+
+
+$link-color: salmonToken.$system-primary;
+$btn-box-shadow: 1px 0px 0px 1px var(--Colours-Grays-100, #EEF2F6), 0px 1px 0px 0px var(--Colours-Grays-50, #F8FAFC), 0px 3px 2px 0px var(--Colours-Grays-50, #F8FAFC);
+
+$btn-box-shadow-skeuo: 0px 0px 0px 2px salmonToken.$gray-100,
+0px -2px 0px 0px salmonToken.$gray-50,
+0px 1px 2px 0px salmonToken.$gray-50;

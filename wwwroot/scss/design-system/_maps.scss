@@ -1,0 +1,40 @@
+@use "sass:color";
+@use "colors" as salmonToken;
+@use "buttons" as buttonColor;
+
+
+$theme-colors: (
+        "primary": salmonToken.$system-primary,
+        "secondary": salmonToken.$system-secondary,
+  /// Semantic colours should not change for any brand
+        "success": salmonToken.$success-500,
+        "danger": salmonToken.$error-600,
+        "warning": salmonToken.$warning-300,
+        "info": salmonToken.$gray-200,
+        "light": salmonToken.$gray-50,
+        "dark": salmonToken.$gray-900
+);
+
+
+// Dynamic CSS Variables for Runtime Theming
+:root {
+  // Primary
+  --system-primary: #{salmonToken.$system-primary};
+  --system-primary-hover: #{color.scale(salmonToken.$system-primary, $lightness: -15%)};
+  --system-primary-border: #{color.scale(salmonToken.$system-primary, $lightness: -10%)};
+
+  // Secondary
+  --system-secondary: #{salmonToken.$system-secondary};
+  --system-secondary-hover: #{color.scale(salmonToken.$system-secondary, $lightness: -15%)};
+  --system-secondary-border: #{color.scale(salmonToken.$system-secondary, $lightness: -10%)};
+
+  // Error
+  --system-error: #{salmonToken.$error-600};
+  --system-error-hover: #{color.scale(buttonColor.$btn-error-base, $lightness: -15%)};
+  --system-error-border: #{color.scale(buttonColor.$btn-error-base, $lightness: -10%)};
+
+  // Optional RGB (for use in shadows, focus rings, etc.)
+  //--system-primary-rgb: #{color.red(salmonToken.$system-primary)}, #{color.green(salmonToken.$system-primary)}, #{color.blue(salmonToken.$system-primary)};
+  //--system-secondary-rgb: #{color.red(salmonToken.$system-secondary)}, #{color.green(salmonToken.$system-secondary)}, #{color.blue(salmonToken.$system-secondary)};
+  //--system-error-rgb: #{color.red(buttonColor.$btn-error-base)}, #{color.green(buttonColor.$btn-error-base)}, #{color.blue(buttonColor.$btn-error-base)};
+}

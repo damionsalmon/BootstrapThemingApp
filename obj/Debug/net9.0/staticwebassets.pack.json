@@ -109,10 +109,6 @@
       "PackagePath": "staticwebassets/assets/webfonts/fa-regular-400.woff2"
     },
     {
-      "Id": "/Users/damionrobinson/Documents/Development/BootstrapThemingApp/wwwroot/css/bootstrap.min.css",
-      "PackagePath": "staticwebassets/css/bootstrap.min.css"
-    },
-    {
       "Id": "/Users/damionrobinson/Documents/Development/BootstrapThemingApp/wwwroot/css/theme.css",
       "PackagePath": "staticwebassets/css/theme.css"
     },
@@ -529,60 +525,64 @@
       "PackagePath": "staticwebassets/sample-data/weather.json"
     },
     {
-      "Id": "/Users/damionrobinson/Documents/Development/BootstrapThemingApp/wwwroot/scss/_button.scss",
-      "PackagePath": "staticwebassets/scss/_button.scss"
+      "Id": "/Users/damionrobinson/Documents/Development/BootstrapThemingApp/wwwroot/scss/design-system/_buttons.scss",
+      "PackagePath": "staticwebassets/scss/design-system/_buttons.scss"
     },
     {
-      "Id": "/Users/damionrobinson/Documents/Development/BootstrapThemingApp/wwwroot/scss/_override.css",
-      "PackagePath": "staticwebassets/scss/_override.css"
+      "Id": "/Users/damionrobinson/Documents/Development/BootstrapThemingApp/wwwroot/scss/design-system/_colors.scss",
+      "PackagePath": "staticwebassets/scss/design-system/_colors.scss"
     },
     {
-      "Id": "/Users/damionrobinson/Documents/Development/BootstrapThemingApp/wwwroot/scss/_override.css.map",
-      "PackagePath": "staticwebassets/scss/_override.css.map"
+      "Id": "/Users/damionrobinson/Documents/Development/BootstrapThemingApp/wwwroot/scss/design-system/_functions.scss",
+      "PackagePath": "staticwebassets/scss/design-system/_functions.scss"
     },
     {
-      "Id": "/Users/damionrobinson/Documents/Development/BootstrapThemingApp/wwwroot/scss/_override.scss",
-      "PackagePath": "staticwebassets/scss/_override.scss"
+      "Id": "/Users/damionrobinson/Documents/Development/BootstrapThemingApp/wwwroot/scss/design-system/_index.scss",
+      "PackagePath": "staticwebassets/scss/design-system/_index.scss"
     },
     {
-      "Id": "/Users/damionrobinson/Documents/Development/BootstrapThemingApp/wwwroot/scss/_validation.scss",
-      "PackagePath": "staticwebassets/scss/_validation.scss"
+      "Id": "/Users/damionrobinson/Documents/Development/BootstrapThemingApp/wwwroot/scss/design-system/_maps.scss",
+      "PackagePath": "staticwebassets/scss/design-system/_maps.scss"
     },
     {
-      "Id": "/Users/damionrobinson/Documents/Development/BootstrapThemingApp/wwwroot/scss/components.css",
-      "PackagePath": "staticwebassets/scss/components.css"
+      "Id": "/Users/damionrobinson/Documents/Development/BootstrapThemingApp/wwwroot/scss/design-system/_mixin.scss",
+      "PackagePath": "staticwebassets/scss/design-system/_mixin.scss"
     },
     {
-      "Id": "/Users/damionrobinson/Documents/Development/BootstrapThemingApp/wwwroot/scss/components.scss",
-      "PackagePath": "staticwebassets/scss/components.scss"
+      "Id": "/Users/damionrobinson/Documents/Development/BootstrapThemingApp/wwwroot/scss/design-system/_radius.scss",
+      "PackagePath": "staticwebassets/scss/design-system/_radius.scss"
     },
     {
-      "Id": "/Users/damionrobinson/Documents/Development/BootstrapThemingApp/wwwroot/scss/functions.css",
-      "PackagePath": "staticwebassets/scss/functions.css"
+      "Id": "/Users/damionrobinson/Documents/Development/BootstrapThemingApp/wwwroot/scss/design-system/_spacing.scss",
+      "PackagePath": "staticwebassets/scss/design-system/_spacing.scss"
     },
     {
-      "Id": "/Users/damionrobinson/Documents/Development/BootstrapThemingApp/wwwroot/scss/functions.css.map",
-      "PackagePath": "staticwebassets/scss/functions.css.map"
+      "Id": "/Users/damionrobinson/Documents/Development/BootstrapThemingApp/wwwroot/scss/design-system/_typography.scss",
+      "PackagePath": "staticwebassets/scss/design-system/_typography.scss"
     },
     {
-      "Id": "/Users/damionrobinson/Documents/Development/BootstrapThemingApp/wwwroot/scss/functions.scss",
-      "PackagePath": "staticwebassets/scss/functions.scss"
+      "Id": "/Users/damionrobinson/Documents/Development/BootstrapThemingApp/wwwroot/scss/overrides/_button.scss",
+      "PackagePath": "staticwebassets/scss/overrides/_button.scss"
     },
     {
-      "Id": "/Users/damionrobinson/Documents/Development/BootstrapThemingApp/wwwroot/scss/mixin.css",
-      "PackagePath": "staticwebassets/scss/mixin.css"
+      "Id": "/Users/damionrobinson/Documents/Development/BootstrapThemingApp/wwwroot/scss/overrides/_custom_bs_override.scss",
+      "PackagePath": "staticwebassets/scss/overrides/_custom_bs_override.scss"
     },
     {
-      "Id": "/Users/damionrobinson/Documents/Development/BootstrapThemingApp/wwwroot/scss/mixin.css.map",
-      "PackagePath": "staticwebassets/scss/mixin.css.map"
+      "Id": "/Users/damionrobinson/Documents/Development/BootstrapThemingApp/wwwroot/scss/overrides/_validation.scss",
+      "PackagePath": "staticwebassets/scss/overrides/_validation.scss"
     },
     {
-      "Id": "/Users/damionrobinson/Documents/Development/BootstrapThemingApp/wwwroot/scss/mixin.scss",
-      "PackagePath": "staticwebassets/scss/mixin.scss"
+      "Id": "/Users/damionrobinson/Documents/Development/BootstrapThemingApp/wwwroot/scss/overrides/overrides.css",
+      "PackagePath": "staticwebassets/scss/overrides/overrides.css"
     },
     {
-      "Id": "/Users/damionrobinson/Documents/Development/BootstrapThemingApp/wwwroot/scss/salmon-tokens.scss",
-      "PackagePath": "staticwebassets/scss/salmon-tokens.scss"
+      "Id": "/Users/damionrobinson/Documents/Development/BootstrapThemingApp/wwwroot/scss/overrides/overrides.css.map",
+      "PackagePath": "staticwebassets/scss/overrides/overrides.css.map"
+    },
+    {
+      "Id": "/Users/damionrobinson/Documents/Development/BootstrapThemingApp/wwwroot/scss/overrides/overrides.scss",
+      "PackagePath": "staticwebassets/scss/overrides/overrides.scss"
     },
     {
       "Id": "/Users/damionrobinson/Documents/Development/BootstrapThemingApp/wwwroot/scss/theme.css",

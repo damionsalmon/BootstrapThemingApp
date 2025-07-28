@@ -1,0 +1,17 @@
+@use "../design-system/colors";
+
+.validation-message {
+  padding: .25rem 0;
+
+  &.info {
+    color: colors.$info;
+  }
+
+  &.error {
+    color: colors.$danger;
+  }
+
+  &.success {
+    color: colors.$success;
+  }
+}

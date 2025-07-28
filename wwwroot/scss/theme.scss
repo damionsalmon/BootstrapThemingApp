@@ -1,12 +1,7 @@
-@import "salmon-tokens.scss";
-@import "mixin.scss";
-@import "functions.scss";
+// Custom Variables, Functions and Mixin
+@use'design-system/index.scss';
+@use '../lib/bootstrap/scss/bootstrap.scss';
+@use'overrides/overrides.scss';
 
-@import "../lib/bootstrap/scss/bootstrap.scss";
-@import "_button.scss";
-@import "_override.scss";
-@import "_validation.scss";
-
-
-///components
-@import "components.scss";
+// Components
+@use '../../Shared/shared';

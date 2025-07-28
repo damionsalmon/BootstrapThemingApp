@@ -1,10 +1,11 @@
 /* Error: 2 arguments required, but only 1 was passed.
- *     ,
- * 151 | $font-size-label: rem(12);
- *     |                   ^^^^^^^
- *     '
- *   salmon-tokens.scss 151:19  @import
- *   theme.scss 1:9             root stylesheet */
+ *   ,
+ * 3 |   width: rem(58);
+ *   |          ^^^^^^^
+ *   '
+ *   ../../Shared/Components/IconButton/_SalIconButton.scss 3:10  @use
+ *   ../../Shared/_shared.scss 3:1                                @use
+ *   theme.scss 7:1                                               root stylesheet */
 
 body::before {
   font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
@@ -14,5 +15,5 @@ body::before {
   padding: 1em;
   margin-bottom: 1em;
   border-bottom: 2px solid black;
-  content: "Error: 2 arguments required, but only 1 was passed.\a     \2577 \a 151 \2502  $font-size-label: rem(12);\a     \2502                    ^^^^^^^\a     \2575 \a   salmon-tokens.scss 151:19  @import\a   theme.scss 1:9             root stylesheet";
+  content: "Error: 2 arguments required, but only 1 was passed.\a   \2577 \a 3 \2502    width: rem(58);\a   \2502           ^^^^^^^\a   \2575 \a   ../../Shared/Components/IconButton/_SalIconButton.scss 3:10  @use\a   ../../Shared/_shared.scss 3:1                                @use\a   theme.scss 7:1                                               root stylesheet";
 }

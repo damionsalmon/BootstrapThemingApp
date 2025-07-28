@@ -1,0 +1,48 @@
+@use "functions" as fn;
+// Font Family
+$font-family-display: 'Inter', sans-serif;
+$font-family-body: 'Inter', sans-serif;
+
+// Font Weight
+$font-weight-regular: 400;
+$font-weight-medium: 500;
+$font-weight-semibold: 600;
+$font-weight-bold: 700;
+
+// Font Sizes
+$font-size-label: fn.rem(12);
+$font-size-body-sm: fn.rem(14);
+$font-size-body: fn.rem(16);
+$font-size-body-lg: fn.rem(18);
+$font-size-h4: fn.rem(20);
+$font-size-h3: fn.rem(24);
+$font-size-h2: fn.rem(28);
+$font-size-h1: fn.rem(32);
+$font-size-display-md: fn.rem(36);
+$font-size-display-lg: fn.rem(48);
+$font-size-display-xl: fn.rem(60);
+$font-size-display-2xl: fn.rem(72);
+
+// Line Heights
+
+$line-height-label: fn.rem(18);
+$line-height-body-sm: fn.rem(20);
+$line-height-body-lg: fn.rem(26);
+$line-height-h4: fn.rem(28);
+$line-height-h3: fn.rem(32);
+$line-height-h2: fn.rem(36);
+$line-height-h1: fn.rem(40);
+$line-height-display-md: fn.rem(44);
+$line-height-display-lg: fn.rem(60);
+$line-height-display-xl: fn.rem(72);
+$line-height-display-2xl: fn.rem(90);
+
+
+// Bootstrap Typography Overrides
+$font-family-sans-serif: $font-family-body;
+$font-family-base: $font-family-body;
+$font-weight-base: $font-weight-regular;
+$font-size-base: $font-size-body;
+$headings-font-family: $font-family-display;
+$headings-font-weight: $font-weight-semibold;
+

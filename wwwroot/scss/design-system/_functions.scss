@@ -1,0 +1,6 @@
+$browser-context: 16; // default base font size for all browsers
+$system-base: 1rem; // default system size which inherits browser base
+
+@function rem($pixels, $context: $browser-context) {
+  @return ($pixels / $context) * $system-base;
+}

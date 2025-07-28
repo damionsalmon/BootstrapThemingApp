@@ -1,0 +1,6 @@
+@use "buttons";
+
+@mixin skeuo-button-style {
+  border: none;
+  box-shadow: buttons.$btn-box-shadow-skeuo;
+}

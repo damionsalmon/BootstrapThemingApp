@@ -1,5 +1,0 @@
-$browser-context: 16; // default base font size
-
-@function rem($pixels, $context: $browser-context) {
-  @return ($pixels / $context) * 1rem;
-}
