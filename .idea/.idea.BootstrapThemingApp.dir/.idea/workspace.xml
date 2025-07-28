@@ -10,12 +10,10 @@
   <component name="ChangeListManager">
     <list default="true" id="640f85f9-f7d4-4098-8ba6-9d8731d0cd30" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.BootstrapThemingApp.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BootstrapThemingApp.dir/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Shared/models/AppIcons.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Shared/models/AppIcons.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wwwroot/css/theme.css" beforeDir="false" afterPath="$PROJECT_DIR$/wwwroot/css/theme.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wwwroot/css/theme.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/wwwroot/css/theme.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wwwroot/scss/design-system/_buttons.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wwwroot/scss/design-system/_buttons.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wwwroot/scss/design-system/_colors.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wwwroot/scss/design-system/_colors.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wwwroot/scss/design-system/_radius.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wwwroot/scss/design-system/_radius.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wwwroot/scss/overrides/_custom_bs_override.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wwwroot/scss/overrides/_custom_bs_override.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wwwroot/scss/theme.css" beforeDir="false" afterPath="$PROJECT_DIR$/wwwroot/scss/theme.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wwwroot/scss/theme.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/wwwroot/scss/theme.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wwwroot/scss/theme.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wwwroot/scss/theme.scss" afterDir="false" />
@@ -129,7 +127,7 @@
       <workItem from="1749633730422" duration="3325000" />
       <workItem from="1749637064789" duration="46504000" />
       <workItem from="1753342346403" duration="21522000" />
-      <workItem from="1753445529410" duration="15863000" />
+      <workItem from="1753445529410" duration="16722000" />
     </task>
     <servers />
   </component>

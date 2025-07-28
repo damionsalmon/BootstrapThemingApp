@@ -12,6 +12,7 @@ namespace BootstrapThemingApp.Icons
     {
         // General
         public const string Home = "house";
+        public const string Plus = "plus";
         public const string User = "user";
         public const string Settings = "gear";
         public const string PaperPlane = "paper-plane";
