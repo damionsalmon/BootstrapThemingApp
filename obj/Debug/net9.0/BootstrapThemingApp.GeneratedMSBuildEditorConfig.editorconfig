@@ -76,12 +76,20 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvSG9tZS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
+[/Users/damionrobinson/Documents/Development/BootstrapThemingApp/Pages/SalFormbuilder.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU2FsRm9ybWJ1aWxkZXIucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/damionrobinson/Documents/Development/BootstrapThemingApp/Routes.razor]
 build_metadata.AdditionalFiles.TargetPath = Um91dGVzLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/damionrobinson/Documents/Development/BootstrapThemingApp/Shared/Components/FaIcon.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkL0NvbXBvbmVudHMvRmFJY29uLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/damionrobinson/Documents/Development/BootstrapThemingApp/Shared/Components/FormBuilder.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkL0NvbXBvbmVudHMvRm9ybUJ1aWxkZXIucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/damionrobinson/Documents/Development/BootstrapThemingApp/Shared/Components/IconButton/SalIconButton.razor]

@@ -197,6 +197,9 @@ a {
   }
 }
 
+.validation-message{
+ color: var(--bs-danger); 
+}
 
 :root {
   --bs-primary: #{colors.$system-primary};
