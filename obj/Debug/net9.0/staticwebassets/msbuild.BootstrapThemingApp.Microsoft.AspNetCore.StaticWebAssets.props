@@ -534,8 +534,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>wpfzhc3wpn</Fingerprint>
-      <Integrity>VMsGi7hIUaV/da9tQdsYVuCc0a3fIUmOYKtWC6wfH/8=</Integrity>
+      <Fingerprint>2i8ia8nx9r</Fingerprint>
+      <Integrity>durHjZEofqj3CEtWzYiPZpQw3GrskANtM8cbkB9xWMc=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\form-configs\user-credentials.json'))</OriginalItemSpec>

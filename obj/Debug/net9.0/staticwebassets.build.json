@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "+RWtx7aICQ79/Hm6d+k0CxTeBUpHHjkdpk8H9L8T4Q8=",
+  "Hash": "02uTVhkd3g53EtU5aPZdV70Prp8zTfEre/UBYHaHHk4=",
   "Source": "BootstrapThemingApp",
   "BasePath": "/",
   "Mode": "Root",
@@ -220,8 +220,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "manifest",
-      "Fingerprint": "fww59fof3o",
-      "Integrity": "z7ocEtk0DD5hxdo5dWxuWfGx5L0PcU5IkxFRIrNgl9Y=",
+      "Fingerprint": "j4hkw90z1p",
+      "Integrity": "Tcild0BWwQWrmtwLavxYe6naZyjRDp00vWtip5+lNvo=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "obj/Debug/net9.0/blazor.boot.json"
@@ -283,8 +283,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "symbol",
-      "Fingerprint": "bv81kjr1nc",
-      "Integrity": "J5M389FgM9p7DwwR5VVxesNBRGVyU+p4r1+OfwKT/fU=",
+      "Fingerprint": "ion2umg01k",
+      "Integrity": "YtrulouqrIwNCfLjzRHkUV7Y2u27fMJlSlqWcfuOrg8=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "obj/Debug/net9.0/BootstrapThemingApp.pdb"
@@ -304,8 +304,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "runtime",
-      "Fingerprint": "35nk61bahp",
-      "Integrity": "J0wsc/g8J2VVx/TFNOBNvyeK1PeNaqQHBiJMH9mOZ9c=",
+      "Fingerprint": "qos165erlc",
+      "Integrity": "hh7H1dUD2p6UA5FtefoBECPnKYQW35SrQlH357mOFiI=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "/Users/damionrobinson/Documents/Development/BootstrapThemingApp/obj/Debug/net9.0/webcil/BootstrapThemingApp.wasm"
@@ -5057,12 +5057,12 @@
       "OriginalItemSpec": "/Users/damionrobinson/Documents/Development/BootstrapThemingApp/bin/Debug/net9.0/wwwroot/_framework/System.Runtime.Serialization.Json.wasm"
     },
     {
-      "Identity": "/Users/damionrobinson/Documents/Development/BootstrapThemingApp/obj/Debug/net9.0/compressed/4euipgra9v-wpfzhc3wpn.gz",
+      "Identity": "/Users/damionrobinson/Documents/Development/BootstrapThemingApp/obj/Debug/net9.0/compressed/4euipgra9v-2i8ia8nx9r.gz",
       "SourceId": "BootstrapThemingApp",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/damionrobinson/Documents/Development/BootstrapThemingApp/obj/Debug/net9.0/compressed/",
       "BasePath": "/",
-      "RelativePath": "form-configs/user-credentials#[.{fingerprint=wpfzhc3wpn}]?.json.gz",
+      "RelativePath": "form-configs/user-credentials#[.{fingerprint=2i8ia8nx9r}]?.json.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -5071,8 +5071,8 @@
       "RelatedAsset": "/Users/damionrobinson/Documents/Development/BootstrapThemingApp/wwwroot/form-configs/user-credentials.json",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "vmioxrscnp",
-      "Integrity": "V0FKzrNDgCEOMNnlIYb2uoN+zkkGifyOEqZJJQB7WzE=",
+      "Fingerprint": "ctkk41qvaj",
+      "Integrity": "YC6nHT5qCKUpU7A26dYTPvSmKWxWO8tfi62Ap/18SNA=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "/Users/damionrobinson/Documents/Development/BootstrapThemingApp/wwwroot/form-configs/user-credentials.json"
@@ -5708,7 +5708,7 @@
       "OriginalItemSpec": "/Users/damionrobinson/Documents/Development/BootstrapThemingApp/bin/Debug/net9.0/wwwroot/_framework/System.Diagnostics.TraceSource.wasm"
     },
     {
-      "Identity": "/Users/damionrobinson/Documents/Development/BootstrapThemingApp/obj/Debug/net9.0/compressed/akxof6u3fo-fww59fof3o.gz",
+      "Identity": "/Users/damionrobinson/Documents/Development/BootstrapThemingApp/obj/Debug/net9.0/compressed/akxof6u3fo-j4hkw90z1p.gz",
       "SourceId": "BootstrapThemingApp",
       "SourceType": "Computed",
       "ContentRoot": "/Users/damionrobinson/Documents/Development/BootstrapThemingApp/obj/Debug/net9.0/compressed/",
@@ -5722,8 +5722,8 @@
       "RelatedAsset": "/Users/damionrobinson/Documents/Development/BootstrapThemingApp/bin/Debug/net9.0/wwwroot/_framework/blazor.boot.json",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "23ts2228hy",
-      "Integrity": "wtNZDISE1xnMqWPkQU5/sZqTWmrEnMy8AvxmCX8ljwA=",
+      "Fingerprint": "7stce6fkt7",
+      "Integrity": "OUh4u873ftzNX+S3Y2mXHr4qStSTcEa8KHSHLueopRk=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "/Users/damionrobinson/Documents/Development/BootstrapThemingApp/bin/Debug/net9.0/wwwroot/_framework/blazor.boot.json"
@@ -7724,12 +7724,12 @@
       "OriginalItemSpec": "/Users/damionrobinson/Documents/Development/BootstrapThemingApp/bin/Debug/net9.0/wwwroot/_framework/System.Security.Cryptography.Encoding.wasm"
     },
     {
-      "Identity": "/Users/damionrobinson/Documents/Development/BootstrapThemingApp/obj/Debug/net9.0/compressed/oo0ryr1bkd-35nk61bahp.gz",
+      "Identity": "/Users/damionrobinson/Documents/Development/BootstrapThemingApp/obj/Debug/net9.0/compressed/oo0ryr1bkd-qos165erlc.gz",
       "SourceId": "BootstrapThemingApp",
       "SourceType": "Computed",
       "ContentRoot": "/Users/damionrobinson/Documents/Development/BootstrapThemingApp/obj/Debug/net9.0/compressed/",
       "BasePath": "/",
-      "RelativePath": "_framework/BootstrapThemingApp#[.{fingerprint=35nk61bahp}]!.wasm.gz",
+      "RelativePath": "_framework/BootstrapThemingApp#[.{fingerprint=qos165erlc}]!.wasm.gz",
       "AssetKind": "Build",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -7738,8 +7738,8 @@
       "RelatedAsset": "/Users/damionrobinson/Documents/Development/BootstrapThemingApp/bin/Debug/net9.0/wwwroot/_framework/BootstrapThemingApp.wasm",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "3gpelwnb2j",
-      "Integrity": "raIR/diT7NzvT+FX7gZS2ejsgc1dQaTWhDJRWeH6RO8=",
+      "Fingerprint": "ksm8hwv8bp",
+      "Integrity": "nLlN2IAUn7SBYBD5b40t+e0Xswxnp3i3DZeXqyj7ZPg=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "/Users/damionrobinson/Documents/Development/BootstrapThemingApp/bin/Debug/net9.0/wwwroot/_framework/BootstrapThemingApp.wasm"
@@ -8060,12 +8060,12 @@
       "OriginalItemSpec": "/Users/damionrobinson/.nuget/packages/blazor.bootstrap/3.3.1/staticwebassets/blazor.bootstrap.js"
     },
     {
-      "Identity": "/Users/damionrobinson/Documents/Development/BootstrapThemingApp/obj/Debug/net9.0/compressed/rf53xnbr4s-bv81kjr1nc.gz",
+      "Identity": "/Users/damionrobinson/Documents/Development/BootstrapThemingApp/obj/Debug/net9.0/compressed/rf53xnbr4s-ion2umg01k.gz",
       "SourceId": "BootstrapThemingApp",
       "SourceType": "Computed",
       "ContentRoot": "/Users/damionrobinson/Documents/Development/BootstrapThemingApp/obj/Debug/net9.0/compressed/",
       "BasePath": "/",
-      "RelativePath": "_framework/BootstrapThemingApp#[.{fingerprint=bv81kjr1nc}]!.pdb.gz",
+      "RelativePath": "_framework/BootstrapThemingApp#[.{fingerprint=ion2umg01k}]!.pdb.gz",
       "AssetKind": "Build",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -8074,8 +8074,8 @@
       "RelatedAsset": "/Users/damionrobinson/Documents/Development/BootstrapThemingApp/bin/Debug/net9.0/wwwroot/_framework/BootstrapThemingApp.pdb",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "jyxjbjmgir",
-      "Integrity": "VVbwDoFBpkDk5SKt9Vw44FoPPvRUqNPGAaem53SsLqY=",
+      "Fingerprint": "3fb2lpv9bc",
+      "Integrity": "sfCrmEky77KAAZ4tRE3s7UZjaK1yB6W1edk5/R66TYU=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "/Users/damionrobinson/Documents/Development/BootstrapThemingApp/bin/Debug/net9.0/wwwroot/_framework/BootstrapThemingApp.pdb"
@@ -10048,8 +10048,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "wpfzhc3wpn",
-      "Integrity": "VMsGi7hIUaV/da9tQdsYVuCc0a3fIUmOYKtWC6wfH/8=",
+      "Fingerprint": "2i8ia8nx9r",
+      "Integrity": "durHjZEofqj3CEtWzYiPZpQw3GrskANtM8cbkB9xWMc=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/form-configs/user-credentials.json"
@@ -13881,11 +13881,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"z7ocEtk0DD5hxdo5dWxuWfGx5L0PcU5IkxFRIrNgl9Y=\""
+          "Value": "\"Tcild0BWwQWrmtwLavxYe6naZyjRDp00vWtip5+lNvo=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 26 Nov 2025 13:06:57 GMT"
+          "Value": "Wed, 26 Nov 2025 14:21:57 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -13895,18 +13895,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-z7ocEtk0DD5hxdo5dWxuWfGx5L0PcU5IkxFRIrNgl9Y="
+          "Value": "sha256-Tcild0BWwQWrmtwLavxYe6naZyjRDp00vWtip5+lNvo="
         }
       ]
     },
     {
       "Route": "_framework/blazor.boot.json",
-      "AssetFile": "/Users/damionrobinson/Documents/Development/BootstrapThemingApp/obj/Debug/net9.0/compressed/akxof6u3fo-fww59fof3o.gz",
+      "AssetFile": "/Users/damionrobinson/Documents/Development/BootstrapThemingApp/obj/Debug/net9.0/compressed/akxof6u3fo-j4hkw90z1p.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000080671184"
+          "Quality": "0.000080664677"
         }
       ],
       "ResponseHeaders": [
@@ -13916,15 +13916,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "12395"
+          "Value": "12396"
         },
         {
           "Name": "ETag",
-          "Value": "\"wtNZDISE1xnMqWPkQU5/sZqTWmrEnMy8AvxmCX8ljwA=\""
+          "Value": "\"OUh4u873ftzNX+S3Y2mXHr4qStSTcEa8KHSHLueopRk=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 26 Nov 2025 13:05:20 GMT"
+          "Value": "Wed, 26 Nov 2025 14:20:13 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -13944,19 +13944,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"z7ocEtk0DD5hxdo5dWxuWfGx5L0PcU5IkxFRIrNgl9Y=\""
+          "Value": "W/\"Tcild0BWwQWrmtwLavxYe6naZyjRDp00vWtip5+lNvo=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-z7ocEtk0DD5hxdo5dWxuWfGx5L0PcU5IkxFRIrNgl9Y="
+          "Value": "sha256-Tcild0BWwQWrmtwLavxYe6naZyjRDp00vWtip5+lNvo="
         }
       ]
     },
     {
       "Route": "_framework/blazor.boot.json.gz",
-      "AssetFile": "/Users/damionrobinson/Documents/Development/BootstrapThemingApp/obj/Debug/net9.0/compressed/akxof6u3fo-fww59fof3o.gz",
+      "AssetFile": "/Users/damionrobinson/Documents/Development/BootstrapThemingApp/obj/Debug/net9.0/compressed/akxof6u3fo-j4hkw90z1p.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -13965,7 +13965,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "12395"
+          "Value": "12396"
         },
         {
           "Name": "Content-Type",
@@ -13973,11 +13973,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"wtNZDISE1xnMqWPkQU5/sZqTWmrEnMy8AvxmCX8ljwA=\""
+          "Value": "\"OUh4u873ftzNX+S3Y2mXHr4qStSTcEa8KHSHLueopRk=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 26 Nov 2025 13:05:20 GMT"
+          "Value": "Wed, 26 Nov 2025 14:20:13 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -13995,7 +13995,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-wtNZDISE1xnMqWPkQU5/sZqTWmrEnMy8AvxmCX8ljwA="
+          "Value": "sha256-OUh4u873ftzNX+S3Y2mXHr4qStSTcEa8KHSHLueopRk="
         }
       ]
     },
@@ -14435,168 +14435,7 @@
       ]
     },
     {
-      "Route": "_framework/BootstrapThemingApp.35nk61bahp.wasm",
-      "AssetFile": "/Users/damionrobinson/Documents/Development/BootstrapThemingApp/bin/Debug/net9.0/wwwroot/_framework/BootstrapThemingApp.wasm",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "66837"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/wasm"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"J0wsc/g8J2VVx/TFNOBNvyeK1PeNaqQHBiJMH9mOZ9c=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 26 Nov 2025 13:05:20 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "35nk61bahp"
-        },
-        {
-          "Name": "label",
-          "Value": "_framework/BootstrapThemingApp.wasm"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-J0wsc/g8J2VVx/TFNOBNvyeK1PeNaqQHBiJMH9mOZ9c="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/BootstrapThemingApp.35nk61bahp.wasm",
-      "AssetFile": "/Users/damionrobinson/Documents/Development/BootstrapThemingApp/obj/Debug/net9.0/compressed/oo0ryr1bkd-35nk61bahp.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.000038389190"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "26048"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"raIR/diT7NzvT+FX7gZS2ejsgc1dQaTWhDJRWeH6RO8=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 26 Nov 2025 13:05:20 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/wasm"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"J0wsc/g8J2VVx/TFNOBNvyeK1PeNaqQHBiJMH9mOZ9c=\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "35nk61bahp"
-        },
-        {
-          "Name": "label",
-          "Value": "_framework/BootstrapThemingApp.wasm"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-J0wsc/g8J2VVx/TFNOBNvyeK1PeNaqQHBiJMH9mOZ9c="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/BootstrapThemingApp.35nk61bahp.wasm.gz",
-      "AssetFile": "/Users/damionrobinson/Documents/Development/BootstrapThemingApp/obj/Debug/net9.0/compressed/oo0ryr1bkd-35nk61bahp.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "26048"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/wasm"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"raIR/diT7NzvT+FX7gZS2ejsgc1dQaTWhDJRWeH6RO8=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 26 Nov 2025 13:05:20 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "35nk61bahp"
-        },
-        {
-          "Name": "label",
-          "Value": "_framework/BootstrapThemingApp.wasm.gz"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-raIR/diT7NzvT+FX7gZS2ejsgc1dQaTWhDJRWeH6RO8="
-        }
-      ]
-    },
-    {
-      "Route": "_framework/BootstrapThemingApp.bv81kjr1nc.pdb",
+      "Route": "_framework/BootstrapThemingApp.ion2umg01k.pdb",
       "AssetFile": "/Users/damionrobinson/Documents/Development/BootstrapThemingApp/bin/Debug/net9.0/wwwroot/_framework/BootstrapThemingApp.pdb",
       "Selectors": [],
       "ResponseHeaders": [
@@ -14606,7 +14445,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "54664"
+          "Value": "56376"
         },
         {
           "Name": "Content-Type",
@@ -14614,11 +14453,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"J5M389FgM9p7DwwR5VVxesNBRGVyU+p4r1+OfwKT/fU=\""
+          "Value": "\"YtrulouqrIwNCfLjzRHkUV7Y2u27fMJlSlqWcfuOrg8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 26 Nov 2025 13:05:20 GMT"
+          "Value": "Wed, 26 Nov 2025 14:05:35 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -14628,7 +14467,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "bv81kjr1nc"
+          "Value": "ion2umg01k"
         },
         {
           "Name": "label",
@@ -14636,18 +14475,18 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-J5M389FgM9p7DwwR5VVxesNBRGVyU+p4r1+OfwKT/fU="
+          "Value": "sha256-YtrulouqrIwNCfLjzRHkUV7Y2u27fMJlSlqWcfuOrg8="
         }
       ]
     },
     {
-      "Route": "_framework/BootstrapThemingApp.bv81kjr1nc.pdb",
-      "AssetFile": "/Users/damionrobinson/Documents/Development/BootstrapThemingApp/obj/Debug/net9.0/compressed/rf53xnbr4s-bv81kjr1nc.gz",
+      "Route": "_framework/BootstrapThemingApp.ion2umg01k.pdb",
+      "AssetFile": "/Users/damionrobinson/Documents/Development/BootstrapThemingApp/obj/Debug/net9.0/compressed/rf53xnbr4s-ion2umg01k.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000023087224"
+          "Quality": "0.000022527089"
         }
       ],
       "ResponseHeaders": [
@@ -14657,15 +14496,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "43313"
+          "Value": "44390"
         },
         {
           "Name": "ETag",
-          "Value": "\"VVbwDoFBpkDk5SKt9Vw44FoPPvRUqNPGAaem53SsLqY=\""
+          "Value": "\"sfCrmEky77KAAZ4tRE3s7UZjaK1yB6W1edk5/R66TYU=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 26 Nov 2025 13:05:20 GMT"
+          "Value": "Wed, 26 Nov 2025 14:05:35 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -14685,13 +14524,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"J5M389FgM9p7DwwR5VVxesNBRGVyU+p4r1+OfwKT/fU=\""
+          "Value": "W/\"YtrulouqrIwNCfLjzRHkUV7Y2u27fMJlSlqWcfuOrg8=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "bv81kjr1nc"
+          "Value": "ion2umg01k"
         },
         {
           "Name": "label",
@@ -14699,13 +14538,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-J5M389FgM9p7DwwR5VVxesNBRGVyU+p4r1+OfwKT/fU="
+          "Value": "sha256-YtrulouqrIwNCfLjzRHkUV7Y2u27fMJlSlqWcfuOrg8="
         }
       ]
     },
     {
-      "Route": "_framework/BootstrapThemingApp.bv81kjr1nc.pdb.gz",
-      "AssetFile": "/Users/damionrobinson/Documents/Development/BootstrapThemingApp/obj/Debug/net9.0/compressed/rf53xnbr4s-bv81kjr1nc.gz",
+      "Route": "_framework/BootstrapThemingApp.ion2umg01k.pdb.gz",
+      "AssetFile": "/Users/damionrobinson/Documents/Development/BootstrapThemingApp/obj/Debug/net9.0/compressed/rf53xnbr4s-ion2umg01k.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -14714,7 +14553,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "43313"
+          "Value": "44390"
         },
         {
           "Name": "Content-Type",
@@ -14722,11 +14561,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"VVbwDoFBpkDk5SKt9Vw44FoPPvRUqNPGAaem53SsLqY=\""
+          "Value": "\"sfCrmEky77KAAZ4tRE3s7UZjaK1yB6W1edk5/R66TYU=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 26 Nov 2025 13:05:20 GMT"
+          "Value": "Wed, 26 Nov 2025 14:05:35 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -14744,7 +14583,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "bv81kjr1nc"
+          "Value": "ion2umg01k"
         },
         {
           "Name": "label",
@@ -14752,7 +14591,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-VVbwDoFBpkDk5SKt9Vw44FoPPvRUqNPGAaem53SsLqY="
+          "Value": "sha256-sfCrmEky77KAAZ4tRE3s7UZjaK1yB6W1edk5/R66TYU="
         }
       ]
     },
@@ -14767,7 +14606,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "54664"
+          "Value": "56376"
         },
         {
           "Name": "Content-Type",
@@ -14775,11 +14614,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"J5M389FgM9p7DwwR5VVxesNBRGVyU+p4r1+OfwKT/fU=\""
+          "Value": "\"YtrulouqrIwNCfLjzRHkUV7Y2u27fMJlSlqWcfuOrg8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 26 Nov 2025 13:05:20 GMT"
+          "Value": "Wed, 26 Nov 2025 14:05:35 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -14789,18 +14628,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-J5M389FgM9p7DwwR5VVxesNBRGVyU+p4r1+OfwKT/fU="
+          "Value": "sha256-YtrulouqrIwNCfLjzRHkUV7Y2u27fMJlSlqWcfuOrg8="
         }
       ]
     },
     {
       "Route": "_framework/BootstrapThemingApp.pdb",
-      "AssetFile": "/Users/damionrobinson/Documents/Development/BootstrapThemingApp/obj/Debug/net9.0/compressed/rf53xnbr4s-bv81kjr1nc.gz",
+      "AssetFile": "/Users/damionrobinson/Documents/Development/BootstrapThemingApp/obj/Debug/net9.0/compressed/rf53xnbr4s-ion2umg01k.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000023087224"
+          "Quality": "0.000022527089"
         }
       ],
       "ResponseHeaders": [
@@ -14810,15 +14649,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "43313"
+          "Value": "44390"
         },
         {
           "Name": "ETag",
-          "Value": "\"VVbwDoFBpkDk5SKt9Vw44FoPPvRUqNPGAaem53SsLqY=\""
+          "Value": "\"sfCrmEky77KAAZ4tRE3s7UZjaK1yB6W1edk5/R66TYU=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 26 Nov 2025 13:05:20 GMT"
+          "Value": "Wed, 26 Nov 2025 14:05:35 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -14838,19 +14677,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"J5M389FgM9p7DwwR5VVxesNBRGVyU+p4r1+OfwKT/fU=\""
+          "Value": "W/\"YtrulouqrIwNCfLjzRHkUV7Y2u27fMJlSlqWcfuOrg8=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-J5M389FgM9p7DwwR5VVxesNBRGVyU+p4r1+OfwKT/fU="
+          "Value": "sha256-YtrulouqrIwNCfLjzRHkUV7Y2u27fMJlSlqWcfuOrg8="
         }
       ]
     },
     {
       "Route": "_framework/BootstrapThemingApp.pdb.gz",
-      "AssetFile": "/Users/damionrobinson/Documents/Development/BootstrapThemingApp/obj/Debug/net9.0/compressed/rf53xnbr4s-bv81kjr1nc.gz",
+      "AssetFile": "/Users/damionrobinson/Documents/Development/BootstrapThemingApp/obj/Debug/net9.0/compressed/rf53xnbr4s-ion2umg01k.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -14859,7 +14698,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "43313"
+          "Value": "44390"
         },
         {
           "Name": "Content-Type",
@@ -14867,11 +14706,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"VVbwDoFBpkDk5SKt9Vw44FoPPvRUqNPGAaem53SsLqY=\""
+          "Value": "\"sfCrmEky77KAAZ4tRE3s7UZjaK1yB6W1edk5/R66TYU=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 26 Nov 2025 13:05:20 GMT"
+          "Value": "Wed, 26 Nov 2025 14:05:35 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -14889,7 +14728,168 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-VVbwDoFBpkDk5SKt9Vw44FoPPvRUqNPGAaem53SsLqY="
+          "Value": "sha256-sfCrmEky77KAAZ4tRE3s7UZjaK1yB6W1edk5/R66TYU="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/BootstrapThemingApp.qos165erlc.wasm",
+      "AssetFile": "/Users/damionrobinson/Documents/Development/BootstrapThemingApp/bin/Debug/net9.0/wwwroot/_framework/BootstrapThemingApp.wasm",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "69909"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"hh7H1dUD2p6UA5FtefoBECPnKYQW35SrQlH357mOFiI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 26 Nov 2025 14:05:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "qos165erlc"
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/BootstrapThemingApp.wasm"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-hh7H1dUD2p6UA5FtefoBECPnKYQW35SrQlH357mOFiI="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/BootstrapThemingApp.qos165erlc.wasm",
+      "AssetFile": "/Users/damionrobinson/Documents/Development/BootstrapThemingApp/obj/Debug/net9.0/compressed/oo0ryr1bkd-qos165erlc.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000036900369"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "27099"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"nLlN2IAUn7SBYBD5b40t+e0Xswxnp3i3DZeXqyj7ZPg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 26 Nov 2025 14:05:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"hh7H1dUD2p6UA5FtefoBECPnKYQW35SrQlH357mOFiI=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "qos165erlc"
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/BootstrapThemingApp.wasm"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-hh7H1dUD2p6UA5FtefoBECPnKYQW35SrQlH357mOFiI="
+        }
+      ]
+    },
+    {
+      "Route": "_framework/BootstrapThemingApp.qos165erlc.wasm.gz",
+      "AssetFile": "/Users/damionrobinson/Documents/Development/BootstrapThemingApp/obj/Debug/net9.0/compressed/oo0ryr1bkd-qos165erlc.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "27099"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/wasm"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"nLlN2IAUn7SBYBD5b40t+e0Xswxnp3i3DZeXqyj7ZPg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 26 Nov 2025 14:05:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "qos165erlc"
+        },
+        {
+          "Name": "label",
+          "Value": "_framework/BootstrapThemingApp.wasm.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-nLlN2IAUn7SBYBD5b40t+e0Xswxnp3i3DZeXqyj7ZPg="
         }
       ]
     },
@@ -14904,7 +14904,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "66837"
+          "Value": "69909"
         },
         {
           "Name": "Content-Type",
@@ -14912,11 +14912,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"J0wsc/g8J2VVx/TFNOBNvyeK1PeNaqQHBiJMH9mOZ9c=\""
+          "Value": "\"hh7H1dUD2p6UA5FtefoBECPnKYQW35SrQlH357mOFiI=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 26 Nov 2025 13:05:20 GMT"
+          "Value": "Wed, 26 Nov 2025 14:05:35 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -14926,18 +14926,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-J0wsc/g8J2VVx/TFNOBNvyeK1PeNaqQHBiJMH9mOZ9c="
+          "Value": "sha256-hh7H1dUD2p6UA5FtefoBECPnKYQW35SrQlH357mOFiI="
         }
       ]
     },
     {
       "Route": "_framework/BootstrapThemingApp.wasm",
-      "AssetFile": "/Users/damionrobinson/Documents/Development/BootstrapThemingApp/obj/Debug/net9.0/compressed/oo0ryr1bkd-35nk61bahp.gz",
+      "AssetFile": "/Users/damionrobinson/Documents/Development/BootstrapThemingApp/obj/Debug/net9.0/compressed/oo0ryr1bkd-qos165erlc.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000038389190"
+          "Quality": "0.000036900369"
         }
       ],
       "ResponseHeaders": [
@@ -14947,15 +14947,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "26048"
+          "Value": "27099"
         },
         {
           "Name": "ETag",
-          "Value": "\"raIR/diT7NzvT+FX7gZS2ejsgc1dQaTWhDJRWeH6RO8=\""
+          "Value": "\"nLlN2IAUn7SBYBD5b40t+e0Xswxnp3i3DZeXqyj7ZPg=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 26 Nov 2025 13:05:20 GMT"
+          "Value": "Wed, 26 Nov 2025 14:05:35 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -14975,19 +14975,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"J0wsc/g8J2VVx/TFNOBNvyeK1PeNaqQHBiJMH9mOZ9c=\""
+          "Value": "W/\"hh7H1dUD2p6UA5FtefoBECPnKYQW35SrQlH357mOFiI=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-J0wsc/g8J2VVx/TFNOBNvyeK1PeNaqQHBiJMH9mOZ9c="
+          "Value": "sha256-hh7H1dUD2p6UA5FtefoBECPnKYQW35SrQlH357mOFiI="
         }
       ]
     },
     {
       "Route": "_framework/BootstrapThemingApp.wasm.gz",
-      "AssetFile": "/Users/damionrobinson/Documents/Development/BootstrapThemingApp/obj/Debug/net9.0/compressed/oo0ryr1bkd-35nk61bahp.gz",
+      "AssetFile": "/Users/damionrobinson/Documents/Development/BootstrapThemingApp/obj/Debug/net9.0/compressed/oo0ryr1bkd-qos165erlc.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -14996,7 +14996,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "26048"
+          "Value": "27099"
         },
         {
           "Name": "Content-Type",
@@ -15004,11 +15004,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"raIR/diT7NzvT+FX7gZS2ejsgc1dQaTWhDJRWeH6RO8=\""
+          "Value": "\"nLlN2IAUn7SBYBD5b40t+e0Xswxnp3i3DZeXqyj7ZPg=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 26 Nov 2025 13:05:20 GMT"
+          "Value": "Wed, 26 Nov 2025 14:05:35 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -15026,7 +15026,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-raIR/diT7NzvT+FX7gZS2ejsgc1dQaTWhDJRWeH6RO8="
+          "Value": "sha256-nLlN2IAUn7SBYBD5b40t+e0Xswxnp3i3DZeXqyj7ZPg="
         }
       ]
     },
@@ -78537,13 +78537,13 @@
       ]
     },
     {
-      "Route": "form-configs/user-credentials.json",
-      "AssetFile": "/Users/damionrobinson/Documents/Development/BootstrapThemingApp/obj/Debug/net9.0/compressed/4euipgra9v-wpfzhc3wpn.gz",
+      "Route": "form-configs/user-credentials.2i8ia8nx9r.json",
+      "AssetFile": "/Users/damionrobinson/Documents/Development/BootstrapThemingApp/obj/Debug/net9.0/compressed/4euipgra9v-2i8ia8nx9r.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.002754820937"
+          "Quality": "0.002457002457"
         }
       ],
       "ResponseHeaders": [
@@ -78553,19 +78553,19 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "362"
+          "Value": "406"
         },
         {
           "Name": "ETag",
-          "Value": "\"V0FKzrNDgCEOMNnlIYb2uoN+zkkGifyOEqZJJQB7WzE=\""
+          "Value": "\"YC6nHT5qCKUpU7A26dYTPvSmKWxWO8tfi62Ap/18SNA=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 26 Nov 2025 13:05:06 GMT"
+          "Value": "Wed, 26 Nov 2025 14:21:54 GMT"
         },
         {
           "Name": "Cache-Control",
-          "Value": "no-cache"
+          "Value": "max-age=31536000, immutable"
         },
         {
           "Name": "Content-Encoding",
@@ -78581,18 +78581,26 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"VMsGi7hIUaV/da9tQdsYVuCc0a3fIUmOYKtWC6wfH/8=\""
+          "Value": "W/\"durHjZEofqj3CEtWzYiPZpQw3GrskANtM8cbkB9xWMc=\""
         }
       ],
       "EndpointProperties": [
         {
+          "Name": "fingerprint",
+          "Value": "2i8ia8nx9r"
+        },
+        {
+          "Name": "label",
+          "Value": "form-configs/user-credentials.json"
+        },
+        {
           "Name": "integrity",
-          "Value": "sha256-VMsGi7hIUaV/da9tQdsYVuCc0a3fIUmOYKtWC6wfH/8="
+          "Value": "sha256-durHjZEofqj3CEtWzYiPZpQw3GrskANtM8cbkB9xWMc="
         }
       ]
     },
     {
-      "Route": "form-configs/user-credentials.json",
+      "Route": "form-configs/user-credentials.2i8ia8nx9r.json",
       "AssetFile": "/Users/damionrobinson/Documents/Development/BootstrapThemingApp/wwwroot/form-configs/user-credentials.json",
       "Selectors": [],
       "ResponseHeaders": [
@@ -78602,7 +78610,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1508"
+          "Value": "1864"
         },
         {
           "Name": "Content-Type",
@@ -78610,121 +78618,21 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"VMsGi7hIUaV/da9tQdsYVuCc0a3fIUmOYKtWC6wfH/8=\""
+          "Value": "\"durHjZEofqj3CEtWzYiPZpQw3GrskANtM8cbkB9xWMc=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 26 Nov 2025 13:05:06 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-VMsGi7hIUaV/da9tQdsYVuCc0a3fIUmOYKtWC6wfH/8="
-        }
-      ]
-    },
-    {
-      "Route": "form-configs/user-credentials.json.gz",
-      "AssetFile": "/Users/damionrobinson/Documents/Development/BootstrapThemingApp/obj/Debug/net9.0/compressed/4euipgra9v-wpfzhc3wpn.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "362"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/json"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"V0FKzrNDgCEOMNnlIYb2uoN+zkkGifyOEqZJJQB7WzE=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 26 Nov 2025 13:05:06 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-V0FKzrNDgCEOMNnlIYb2uoN+zkkGifyOEqZJJQB7WzE="
-        }
-      ]
-    },
-    {
-      "Route": "form-configs/user-credentials.wpfzhc3wpn.json",
-      "AssetFile": "/Users/damionrobinson/Documents/Development/BootstrapThemingApp/obj/Debug/net9.0/compressed/4euipgra9v-wpfzhc3wpn.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.002754820937"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "362"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"V0FKzrNDgCEOMNnlIYb2uoN+zkkGifyOEqZJJQB7WzE=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 26 Nov 2025 13:05:06 GMT"
+          "Value": "Wed, 26 Nov 2025 14:21:54 GMT"
         },
         {
           "Name": "Cache-Control",
           "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/json"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"VMsGi7hIUaV/da9tQdsYVuCc0a3fIUmOYKtWC6wfH/8=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "wpfzhc3wpn"
+          "Value": "2i8ia8nx9r"
         },
         {
           "Name": "label",
@@ -78732,13 +78640,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-VMsGi7hIUaV/da9tQdsYVuCc0a3fIUmOYKtWC6wfH/8="
+          "Value": "sha256-durHjZEofqj3CEtWzYiPZpQw3GrskANtM8cbkB9xWMc="
         }
       ]
     },
     {
-      "Route": "form-configs/user-credentials.wpfzhc3wpn.json",
-      "AssetFile": "/Users/damionrobinson/Documents/Development/BootstrapThemingApp/wwwroot/form-configs/user-credentials.json",
+      "Route": "form-configs/user-credentials.2i8ia8nx9r.json.gz",
+      "AssetFile": "/Users/damionrobinson/Documents/Development/BootstrapThemingApp/obj/Debug/net9.0/compressed/4euipgra9v-2i8ia8nx9r.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -78747,7 +78655,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1508"
+          "Value": "406"
         },
         {
           "Name": "Content-Type",
@@ -78755,56 +78663,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"VMsGi7hIUaV/da9tQdsYVuCc0a3fIUmOYKtWC6wfH/8=\""
+          "Value": "\"YC6nHT5qCKUpU7A26dYTPvSmKWxWO8tfi62Ap/18SNA=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 26 Nov 2025 13:05:06 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "wpfzhc3wpn"
-        },
-        {
-          "Name": "label",
-          "Value": "form-configs/user-credentials.json"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-VMsGi7hIUaV/da9tQdsYVuCc0a3fIUmOYKtWC6wfH/8="
-        }
-      ]
-    },
-    {
-      "Route": "form-configs/user-credentials.wpfzhc3wpn.json.gz",
-      "AssetFile": "/Users/damionrobinson/Documents/Development/BootstrapThemingApp/obj/Debug/net9.0/compressed/4euipgra9v-wpfzhc3wpn.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "362"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/json"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"V0FKzrNDgCEOMNnlIYb2uoN+zkkGifyOEqZJJQB7WzE=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 26 Nov 2025 13:05:06 GMT"
+          "Value": "Wed, 26 Nov 2025 14:21:54 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -78822,7 +78685,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "wpfzhc3wpn"
+          "Value": "2i8ia8nx9r"
         },
         {
           "Name": "label",
@@ -78830,7 +78693,144 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-V0FKzrNDgCEOMNnlIYb2uoN+zkkGifyOEqZJJQB7WzE="
+          "Value": "sha256-YC6nHT5qCKUpU7A26dYTPvSmKWxWO8tfi62Ap/18SNA="
+        }
+      ]
+    },
+    {
+      "Route": "form-configs/user-credentials.json",
+      "AssetFile": "/Users/damionrobinson/Documents/Development/BootstrapThemingApp/obj/Debug/net9.0/compressed/4euipgra9v-2i8ia8nx9r.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.002457002457"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "406"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"YC6nHT5qCKUpU7A26dYTPvSmKWxWO8tfi62Ap/18SNA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 26 Nov 2025 14:21:54 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/json"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"durHjZEofqj3CEtWzYiPZpQw3GrskANtM8cbkB9xWMc=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-durHjZEofqj3CEtWzYiPZpQw3GrskANtM8cbkB9xWMc="
+        }
+      ]
+    },
+    {
+      "Route": "form-configs/user-credentials.json",
+      "AssetFile": "/Users/damionrobinson/Documents/Development/BootstrapThemingApp/wwwroot/form-configs/user-credentials.json",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1864"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/json"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"durHjZEofqj3CEtWzYiPZpQw3GrskANtM8cbkB9xWMc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 26 Nov 2025 14:21:54 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-durHjZEofqj3CEtWzYiPZpQw3GrskANtM8cbkB9xWMc="
+        }
+      ]
+    },
+    {
+      "Route": "form-configs/user-credentials.json.gz",
+      "AssetFile": "/Users/damionrobinson/Documents/Development/BootstrapThemingApp/obj/Debug/net9.0/compressed/4euipgra9v-2i8ia8nx9r.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "406"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/json"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"YC6nHT5qCKUpU7A26dYTPvSmKWxWO8tfi62Ap/18SNA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 26 Nov 2025 14:21:54 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-YC6nHT5qCKUpU7A26dYTPvSmKWxWO8tfi62Ap/18SNA="
         }
       ]
     },
@@ -89083,7 +89083,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 26 Nov 2025 12:40:52 GMT"
+          "Value": "Wed, 26 Nov 2025 13:12:57 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -89120,7 +89120,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 26 Nov 2025 12:40:52 GMT"
+          "Value": "Wed, 26 Nov 2025 13:12:57 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -89845,7 +89845,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 26 Nov 2025 12:40:53 GMT"
+          "Value": "Wed, 26 Nov 2025 13:12:59 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -89906,7 +89906,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 26 Nov 2025 12:40:53 GMT"
+          "Value": "Wed, 26 Nov 2025 13:12:59 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -89951,7 +89951,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 26 Nov 2025 12:40:53 GMT"
+          "Value": "Wed, 26 Nov 2025 13:12:59 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -90006,7 +90006,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 26 Nov 2025 12:40:53 GMT"
+          "Value": "Wed, 26 Nov 2025 13:12:59 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -90059,7 +90059,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 26 Nov 2025 12:40:53 GMT"
+          "Value": "Wed, 26 Nov 2025 13:12:59 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -90096,7 +90096,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 26 Nov 2025 12:40:53 GMT"
+          "Value": "Wed, 26 Nov 2025 13:12:59 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -90143,7 +90143,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 26 Nov 2025 12:40:53 GMT"
+          "Value": "Wed, 26 Nov 2025 13:12:59 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -90196,7 +90196,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 26 Nov 2025 12:40:53 GMT"
+          "Value": "Wed, 26 Nov 2025 13:12:59 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -90233,7 +90233,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 26 Nov 2025 12:40:53 GMT"
+          "Value": "Wed, 26 Nov 2025 13:12:59 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -90280,7 +90280,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 26 Nov 2025 12:40:53 GMT"
+          "Value": "Wed, 26 Nov 2025 13:12:59 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -90341,7 +90341,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 26 Nov 2025 12:40:53 GMT"
+          "Value": "Wed, 26 Nov 2025 13:12:59 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -90386,7 +90386,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 26 Nov 2025 12:40:53 GMT"
+          "Value": "Wed, 26 Nov 2025 13:12:59 GMT"
         },
         {
           "Name": "Cache-Control",

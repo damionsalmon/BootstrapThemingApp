@@ -30,6 +30,13 @@ public class FormConfig
     public IList<FormFieldConfig> Fields { get; set; } = new List<FormFieldConfig>();
 }
 
+// Wrapper that lets us load both config + model from JSON
+public class DynamicFormDefinition<TModel>
+{
+    public FormConfig Config { get; set; } = new();
+    public TModel Model { get; set; } = default!;
+}
+
 public class UserCredentialsModel
 {
     public string? JobTitle { get; set; }
@@ -38,4 +45,7 @@ public class UserCredentialsModel
     public string? LastName { get; set; }
     public string? Email { get; set; }
     public string? Department { get; set; }
+
+    // Bag for arbitrary client-defined fields
+    public Dictionary<string, string?> Custom { get; set; } = new();
 }

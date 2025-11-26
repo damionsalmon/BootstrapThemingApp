@@ -19,11 +19,15 @@
 
     protected override async Task OnInitializedAsync()
     {
-        // Load config from JSON under wwwroot/form-configs
-        var loaded = await Http.GetFromJsonAsync<FormConfig>(
+        // Load config + model from JSON under wwwroot/form-configs
+        var def = await Http.GetFromJsonAsync<DynamicFormDefinition<UserCredentialsModel>>(
             "form-configs/user-credentials.json");
 
-        Config = loaded ?? new FormConfig();
+        if (def is not null)
+        {
+            Config = def.Config ?? new FormConfig();
+            Model = def.Model ?? new UserCredentialsModel();
+        }
     }
 
     private Task HandleSubmit(object model)
