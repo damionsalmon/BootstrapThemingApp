@@ -121,6 +121,10 @@
       "PackagePath": "staticwebassets/favicon.png"
     },
     {
+      "Id": "/Users/damionrobinson/Documents/Development/BootstrapThemingApp/wwwroot/form-configs/user-credentials.json",
+      "PackagePath": "staticwebassets/form-configs/user-credentials.json"
+    },
+    {
       "Id": "/Users/damionrobinson/Documents/Development/BootstrapThemingApp/wwwroot/icon-192.png",
       "PackagePath": "staticwebassets/icon-192.png"
     },

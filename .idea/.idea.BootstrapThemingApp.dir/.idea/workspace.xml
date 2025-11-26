@@ -9,14 +9,50 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="640f85f9-f7d4-4098-8ba6-9d8731d0cd30" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Pages/SalFormbuilder.razor" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Shared/models/FormConfig.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.BootstrapThemingApp.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BootstrapThemingApp.dir/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Shared/models/AppIcons.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Shared/models/AppIcons.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wwwroot/css/theme.css" beforeDir="false" afterPath="$PROJECT_DIR$/wwwroot/css/theme.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wwwroot/css/theme.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/wwwroot/css/theme.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wwwroot/scss/design-system/_colors.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wwwroot/scss/design-system/_colors.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Folder.DotSettings.user" beforeDir="false" afterPath="$PROJECT_DIR$/Folder.DotSettings.user" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pages/Home.razor" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/Home.razor" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Shared/Components/Breadcrumbs.razor" beforeDir="false" afterPath="$PROJECT_DIR$/Shared/Components/Breadcrumbs.razor" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_Imports.razor" beforeDir="false" afterPath="$PROJECT_DIR$/_Imports.razor" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/net9.0/BootstrapThemingApp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net9.0/BootstrapThemingApp.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/net9.0/BootstrapThemingApp.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net9.0/BootstrapThemingApp.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/net9.0/BootstrapThemingApp.staticwebassets.endpoints.json" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net9.0/BootstrapThemingApp.staticwebassets.endpoints.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/net9.0/BootstrapThemingApp.staticwebassets.runtime.json" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net9.0/BootstrapThemingApp.staticwebassets.runtime.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/net9.0/wwwroot/_framework/BootstrapThemingApp.3xdz6hpzhz.wasm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/net9.0/wwwroot/_framework/BootstrapThemingApp.3xdz6hpzhz.wasm.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/net9.0/wwwroot/_framework/BootstrapThemingApp.7enxwbtw9x.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/net9.0/wwwroot/_framework/BootstrapThemingApp.7enxwbtw9x.pdb.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/net9.0/wwwroot/_framework/blazor.boot.json" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net9.0/wwwroot/_framework/blazor.boot.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/net9.0/wwwroot/_framework/blazor.boot.json.gz" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net9.0/wwwroot/_framework/blazor.boot.json.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net9.0/BootstrapThemingApp.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net9.0/BootstrapThemingApp.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net9.0/BootstrapThemingApp.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net9.0/BootstrapThemingApp.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net9.0/BootstrapThemingApp.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net9.0/BootstrapThemingApp.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net9.0/BootstrapThemingApp.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net9.0/BootstrapThemingApp.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net9.0/BootstrapThemingApp.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net9.0/BootstrapThemingApp.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net9.0/BootstrapThemingApp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net9.0/BootstrapThemingApp.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net9.0/BootstrapThemingApp.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net9.0/BootstrapThemingApp.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net9.0/BootstrapThemingApp.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net9.0/BootstrapThemingApp.sourcelink.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net9.0/blazor.boot.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net9.0/blazor.boot.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net9.0/compressed/2uk2gmi8he-025brjum0d.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net9.0/compressed/akxof6u3fo-hz3d1ekn71.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net9.0/compressed/oo0ryr1bkd-3xdz6hpzhz.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net9.0/compressed/qlhsp3g07b-19sjmbnpel.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net9.0/compressed/rf53xnbr4s-7enxwbtw9x.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net9.0/ref/BootstrapThemingApp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net9.0/ref/BootstrapThemingApp.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net9.0/refint/BootstrapThemingApp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net9.0/refint/BootstrapThemingApp.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net9.0/staticwebassets.build.endpoints.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net9.0/staticwebassets.build.endpoints.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net9.0/staticwebassets.build.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net9.0/staticwebassets.build.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net9.0/staticwebassets.development.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net9.0/staticwebassets.development.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net9.0/staticwebassets.pack.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net9.0/staticwebassets.pack.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net9.0/staticwebassets/msbuild.BootstrapThemingApp.Microsoft.AspNetCore.StaticWebAssetEndpoints.props" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net9.0/staticwebassets/msbuild.BootstrapThemingApp.Microsoft.AspNetCore.StaticWebAssetEndpoints.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net9.0/staticwebassets/msbuild.BootstrapThemingApp.Microsoft.AspNetCore.StaticWebAssets.props" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net9.0/staticwebassets/msbuild.BootstrapThemingApp.Microsoft.AspNetCore.StaticWebAssets.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net9.0/tmp-webcil/BootstrapThemingApp.wasm" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net9.0/tmp-webcil/BootstrapThemingApp.wasm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net9.0/webcil/BootstrapThemingApp.wasm" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net9.0/webcil/BootstrapThemingApp.wasm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wwwroot/scss/overrides/_custom_bs_override.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wwwroot/scss/overrides/_custom_bs_override.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wwwroot/scss/theme.css" beforeDir="false" afterPath="$PROJECT_DIR$/wwwroot/scss/theme.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wwwroot/scss/theme.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/wwwroot/scss/theme.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wwwroot/scss/theme.scss" beforeDir="false" afterPath="$PROJECT_DIR$/wwwroot/scss/theme.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,6 +77,7 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/492e26d176d64f46bdefc54e938b02afd3c00/e2/19cc23dc/IconName.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/492e26d176d64f46bdefc54e938b02afd3c00/f9/b3d89145/ButtonColor.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/95102974b007492392d6ba1b5567474253930/79/7c61b6e3/RenderFragment.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/3ac434135f167e39477dbad579a1e0d0343b31cc852a11c1610b03a5ed318/EditForm.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/ce95fdfdbcf5ae662998e325db0fb2266fd2a55c08ddfc6d6e87657154ae883/ValidationMessage.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
@@ -127,7 +164,8 @@
       <workItem from="1749633730422" duration="3325000" />
       <workItem from="1749637064789" duration="46504000" />
       <workItem from="1753342346403" duration="21522000" />
-      <workItem from="1753445529410" duration="16722000" />
+      <workItem from="1753445529410" duration="20656000" />
+      <workItem from="1764072455544" duration="8367000" />
     </task>
     <servers />
   </component>

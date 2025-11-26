@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BootstrapThemingApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+15392c44ab8d23bfdb34e008262cd6be74f66080")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d907b82cbf2ca723be0528eeec09408f7bf994fb")]
 [assembly: System.Reflection.AssemblyProductAttribute("BootstrapThemingApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BootstrapThemingApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

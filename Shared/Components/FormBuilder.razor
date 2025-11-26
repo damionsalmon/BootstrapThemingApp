@@ -1,0 +1,246 @@
+@using System.Linq
+@using System.Linq.Expressions
+@using System.Reflection
+@inherits ComponentBase
+
+<EditForm EditContext="@_editContext" OnValidSubmit="@HandleValidSubmit">
+    <DataAnnotationsValidator />
+    <div class="row g-3">
+        @foreach (var field in Config.Fields)
+        {
+            <div class="col-12 col-md-@field.ColSpan d-flex flex-column">
+                @RenderField(field)
+            </div>
+        }
+    </div>
+    
+    @* <ValidationSummary /> *@
+
+    <div class="d-flex justify-content-end mt-4">
+        <button type="button" class="btn btn-outline-secondary me-2"
+                @onclick="OnCancelClicked">
+            @CancelLabel
+        </button>
+
+        <button type="submit" class="btn btn-primary">
+            @SubmitLabel
+        </button>
+    </div>
+</EditForm>
+
+@code {
+    // -------------------------
+    // PARAMETERS
+    // -------------------------
+
+    [Parameter] public FormConfig Config { get; set; } = default!;
+    [Parameter] public object Model { get; set; } = default!;
+    [Parameter] public EventCallback<object> OnSubmit { get; set; }
+    [Parameter] public EventCallback OnCancel { get; set; }
+
+    [Parameter] public string SubmitLabel { get; set; } = "Save changes";
+    [Parameter] public string CancelLabel { get; set; } = "Close";
+
+    private EditContext? _editContext;
+    private ValidationMessageStore? _messageStore;
+
+    // -------------------------
+    // LIFECYCLE
+    // -------------------------
+
+    protected override void OnParametersSet()
+    {
+        if (_editContext is null || !ReferenceEquals(_editContext.Model, Model))
+        {
+            _editContext = new EditContext(Model);
+            _messageStore = new ValidationMessageStore(_editContext);
+
+            _editContext.OnValidationRequested += (_, __) => ValidateModel();
+            _editContext.OnFieldChanged += (_, args) => ValidateField(args.FieldIdentifier);
+        }
+    }
+
+    private async Task HandleValidSubmit()
+    {
+        if (OnSubmit.HasDelegate)
+            await OnSubmit.InvokeAsync(Model);
+    }
+
+    private async Task OnCancelClicked()
+    {
+        if (OnCancel.HasDelegate)
+            await OnCancel.InvokeAsync();
+    }
+
+    // -------------------------
+    // RENDERER
+    // -------------------------
+
+    private RenderFragment RenderField(FormFieldConfig field) => builder =>
+    {
+        var seq = 0;
+        var modelType = Model.GetType();
+        var property = modelType.GetProperty(field.Name, BindingFlags.Public | BindingFlags.Instance);
+
+        builder.OpenElement(seq++, "label");
+        builder.AddAttribute(seq++, "class", "form-label fw-semibold");
+        builder.AddContent(seq++, field.Label);
+
+        if (field.Required)
+        {
+            builder.OpenElement(seq++, "span");
+            builder.AddAttribute(seq++, "class", "text-primary ms-1");
+            builder.AddContent(seq++, "*");
+            builder.CloseElement();
+        }
+
+        builder.CloseElement();
+
+        var valueExpression = property is null ? null : CreateValueExpression(property);
+
+        switch (field.FieldType)
+        {
+            case FieldType.Text:
+                builder.OpenComponent<InputText>(seq++);
+                builder.AddAttribute(seq++, "class", "form-control");
+                builder.AddAttribute(seq++, "Value", property?.GetValue(Model));
+                builder.AddAttribute(seq++, "ValueChanged",
+                    EventCallback.Factory.Create(this, MakeSetter(field, property)));
+                if (valueExpression is not null)
+                    builder.AddAttribute(seq++, "ValueExpression", valueExpression);
+                builder.CloseComponent();
+                break;
+
+            case FieldType.Email:
+                builder.OpenComponent<InputText>(seq++);
+                builder.AddAttribute(seq++, "class", "form-control");
+                builder.AddAttribute(seq++, "Type", "email");
+                builder.AddAttribute(seq++, "Value", property?.GetValue(Model));
+                builder.AddAttribute(seq++, "ValueChanged",
+                    EventCallback.Factory.Create(this, MakeSetter(field, property)));
+                if (valueExpression is not null)
+                    builder.AddAttribute(seq++, "ValueExpression", valueExpression);
+                builder.CloseComponent();
+                break;
+
+            case FieldType.Select:
+                builder.OpenComponent<InputSelect<string>>(seq++);
+                builder.AddAttribute(seq++, "class", "form-select");
+                builder.AddAttribute(seq++, "Value", property?.GetValue(Model));
+                builder.AddAttribute(seq++, "ValueChanged",
+                    EventCallback.Factory.Create<string>(this, v =>
+                    {
+                        property?.SetValue(Model, v);
+                        _editContext?.NotifyFieldChanged(new FieldIdentifier(Model, field.Name));
+                    }));
+                if (valueExpression is not null)
+                    builder.AddAttribute(seq++, "ValueExpression", valueExpression);
+
+                builder.AddAttribute(seq++, "ChildContent", (RenderFragment)(optBuilder =>
+                {
+                    int i = 0;
+                    if (field.Options != null)
+                    {
+                        foreach (var opt in field.Options)
+                        {
+                            optBuilder.OpenElement(i++, "option");
+                            optBuilder.AddAttribute(i++, "value", opt.Value);
+                            optBuilder.AddContent(i++, opt.Label);
+                            optBuilder.CloseElement();
+                        }
+                    }
+                }));
+
+                builder.CloseComponent();
+                break;
+        }
+
+        if (valueExpression is not null)
+        {
+            builder.OpenComponent<ValidationMessage<string>>(seq++);
+            builder.AddAttribute(seq++, "For", valueExpression);
+            builder.AddAttribute(seq++, "class", "text-danger small");
+            builder.CloseComponent();
+        }
+    };
+
+    // -------------------------
+    // VALIDATION
+    // -------------------------
+
+    private void ValidateModel()
+    {
+        if (_editContext is null || _messageStore is null)
+            return;
+
+        _messageStore.Clear();
+
+        foreach (var field in Config.Fields)
+        {
+            var identifier = new FieldIdentifier(Model, field.Name);
+            ValidateFieldCore(identifier, field);
+        }
+
+        _editContext.NotifyValidationStateChanged();
+    }
+
+    private void ValidateField(FieldIdentifier fieldIdentifier)
+    {
+        if (_editContext is null || _messageStore is null)
+            return;
+
+        var fieldConfig = Config.Fields.FirstOrDefault(f => f.Name == fieldIdentifier.FieldName);
+        if (fieldConfig is null)
+            return;
+
+        _messageStore.Clear(fieldIdentifier);
+        ValidateFieldCore(fieldIdentifier, fieldConfig);
+        _editContext.NotifyValidationStateChanged();
+    }
+
+    private void ValidateFieldCore(FieldIdentifier fieldIdentifier, FormFieldConfig config)
+    {
+        if (_messageStore is null)
+            return;
+
+        // Required rule (string-based)
+        if (config.Required)
+        {
+            var property = Model.GetType().GetProperty(config.Name, BindingFlags.Public | BindingFlags.Instance);
+            var value = property?.GetValue(Model) as string;
+
+            if (string.IsNullOrWhiteSpace(value))
+            {
+                var message = string.IsNullOrWhiteSpace(config.ErrorMessage)
+                    ? $"{config.Label} is required."
+                    : config.ErrorMessage!;
+
+                _messageStore.Add(fieldIdentifier, message);
+            }
+        }
+    }
+
+    // -------------------------
+    // HELPERS
+    // -------------------------
+
+    private Action<string> MakeSetter(FormFieldConfig field, PropertyInfo? property)
+        => v =>
+        {
+            property?.SetValue(Model, v);
+            _editContext?.NotifyFieldChanged(new FieldIdentifier(Model, field.Name));
+        };
+
+    private Expression<Func<string>> CreateValueExpression(PropertyInfo property)
+    {
+        // Builds an expression like: () => ((TModel)Model).Property
+        var modelType = property.DeclaringType ?? Model.GetType();
+
+        // capture the current Model instance
+        var modelConst = Expression.Constant(Model);
+        var castedModel = Expression.Convert(modelConst, modelType);
+        var body = Expression.Property(castedModel, property);
+
+        return Expression.Lambda<Func<string>>(body);
+    }
+}

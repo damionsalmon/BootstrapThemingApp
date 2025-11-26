@@ -9891,6 +9891,10 @@ a:hover {
   box-shadow: 0 0 0 0.25rem rgba(var(--bs-primary-rgb), 0.25);
 }
 
+.validation-message {
+  color: var(--bs-danger);
+}
+
 :root {
   --bs-primary: #9E4AA2;
   --bs-primary-hover: rgb(110.6, 51.8, 113.4);

@@ -9,8 +9,8 @@
 </div>
 
 @code {
-    private List<BreadcrumbItem> NavItems1 { get; set; }
-    private List<BreadcrumbItem> NavItems2 { get; set; }
+    private List<BreadcrumbItem> NavItems1 { get; set; } = new();
+    private List<BreadcrumbItem> NavItems2 { get; set; } = new();
 
     protected override void OnInitialized()
     {

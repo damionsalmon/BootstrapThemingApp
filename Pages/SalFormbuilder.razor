@@ -1,0 +1,40 @@
+@page "/SalFormbuilder"
+
+@inject HttpClient Http
+
+<PageTitle>Form Builder</PageTitle>
+
+<h1 class="text-primary py-3">Form Builder</h1>
+
+<FormBuilder Config="@Config"
+             Model="@Model"
+             SubmitLabel="Save changes"
+             CancelLabel="Close"
+             OnSubmit="HandleSubmit"
+             OnCancel="HandleCancel" />
+
+@code {
+    private UserCredentialsModel Model = new();
+    private FormConfig Config = new();
+
+    protected override async Task OnInitializedAsync()
+    {
+        // Load config from JSON under wwwroot/form-configs
+        var loaded = await Http.GetFromJsonAsync<FormConfig>(
+            "form-configs/user-credentials.json");
+
+        Config = loaded ?? new FormConfig();
+    }
+
+    private Task HandleSubmit(object model)
+    {
+        Console.WriteLine(System.Text.Json.JsonSerializer.Serialize(model));
+        return Task.CompletedTask;
+    }
+
+    private Task HandleCancel()
+    {
+        Console.WriteLine("Cancelled");
+        return Task.CompletedTask;
+    }
+}
