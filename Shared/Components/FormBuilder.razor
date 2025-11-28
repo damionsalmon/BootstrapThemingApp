@@ -1,6 +1,7 @@
 @using System.Linq
 @using System.Linq.Expressions
 @using System.Reflection
+@using BlazorBootstrap
 @inherits ComponentBase
 
 <EditForm EditContext="@_editContext" OnValidSubmit="@HandleValidSubmit">
@@ -218,6 +219,62 @@
                     }
 
                     builder.CloseElement();
+                }
+                break;
+
+            case FieldType.Typeahead:
+            {
+                
+                var items = (field.Options ?? new List<SelectOption>())
+                    .Select(o => o.Label ?? o.Value)
+                    .ToList();
+
+                builder.OpenComponent<DepartmentTypeahead>(seq++);
+                builder.AddAttribute(seq++, "Items", items);
+                builder.AddAttribute(seq++, "Value", currentValue);
+                builder.AddAttribute(seq++, "ValueChanged",
+                    EventCallback.Factory.Create<string?>(this, v =>
+                    {
+                        if (property != null)
+                            property.SetValue(Model, v);
+                        else
+                            SetCustomValue(field.Name, v ?? string.Empty);
+
+                        _editContext?.NotifyFieldChanged(new FieldIdentifier(Model, field.Name));
+                    }));
+                builder.AddAttribute(seq++, "Placeholder", field.Label);
+                builder.CloseComponent();
+
+                break;
+            }
+
+            case FieldType.Password:
+                if (property != null)
+                {
+                    var valueExpression = CreateValueExpression(property);
+
+                    builder.OpenComponent<PasswordInput>(seq++);
+                    builder.AddAttribute(seq++, "Value", currentValue);
+                    builder.AddAttribute(seq++, "ValueChanged",
+                        EventCallback.Factory.Create<string>(this, v =>
+                        {
+                            property.SetValue(Model, v);
+                            _editContext?.NotifyFieldChanged(new FieldIdentifier(Model, field.Name));
+                        }));
+                    builder.AddAttribute(seq++, "ValueExpression", valueExpression);
+                    builder.CloseComponent();
+                }
+                else
+                {
+                    builder.OpenComponent<PasswordInput>(seq++);
+                    builder.AddAttribute(seq++, "Value", currentValue);
+                    builder.AddAttribute(seq++, "ValueChanged",
+                        EventCallback.Factory.Create<string>(this, v =>
+                        {
+                            SetCustomValue(field.Name, v);
+                            _editContext?.NotifyFieldChanged(new FieldIdentifier(Model, field.Name));
+                        }));
+                    builder.CloseComponent();
                 }
                 break;
         }

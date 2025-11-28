@@ -5,7 +5,9 @@ public enum FieldType
 {
     Text,
     Email,
-    Select
+    Select,
+    Typeahead,
+    Password
 }
 
 public class SelectOption

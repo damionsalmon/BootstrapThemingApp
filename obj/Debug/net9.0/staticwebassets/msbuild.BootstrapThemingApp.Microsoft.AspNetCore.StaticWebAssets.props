@@ -534,8 +534,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>2i8ia8nx9r</Fingerprint>
-      <Integrity>durHjZEofqj3CEtWzYiPZpQw3GrskANtM8cbkB9xWMc=</Integrity>
+      <Fingerprint>90bejl8vq5</Fingerprint>
+      <Integrity>xym/2jKFB2rxWIr2Sf0c/+28Joln4m/WrhcHXCcWHis=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\form-configs\user-credentials.json'))</OriginalItemSpec>
@@ -570,8 +570,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>i509eu3dpd</Fingerprint>
-      <Integrity>+iAAXYiviNHF+bPwZGqIYgPaQE0z02RxpHzTNR1RfEs=</Integrity>
+      <Fingerprint>jwfuxmv9xg</Fingerprint>
+      <Integrity>/Upe/+6pjnr2oeNySGyVGrmXU39FiYWazEYbpGQ6Hc8=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\index.html'))</OriginalItemSpec>

@@ -1,0 +1,46 @@
+@using BlazorBootstrap
+
+<AutoComplete TItem="AutoCompleteItem"
+              TValue="string"
+              @bind-Value="@Value"
+              DataProvider="DataProviderAsync"
+              Placeholder="@Placeholder"
+              PropertyName="Text"
+              OnChanged="@OnAutoCompleteChanged" />
+
+@code {
+    [Parameter] public string? Value { get; set; }
+    [Parameter] public EventCallback<string?> ValueChanged { get; set; }
+
+    [Parameter] public IEnumerable<string> Items { get; set; } = Enumerable.Empty<string>();
+    [Parameter] public string Placeholder { get; set; } = string.Empty;
+
+    private async Task<AutoCompleteDataProviderResult<AutoCompleteItem>> DataProviderAsync(AutoCompleteDataProviderRequest<AutoCompleteItem> request)
+    {
+        var source = Items.Select(x => new AutoCompleteItem { Text = x }).ToList();
+        
+        // Filter based on user input
+        var filteredItems = source;
+        if (!string.IsNullOrWhiteSpace(request.Filter?.Value))
+        {
+            filteredItems = source.Where(x => x.Text.Contains(request.Filter.Value, StringComparison.OrdinalIgnoreCase)).ToList();
+        }
+
+        return await Task.FromResult(new AutoCompleteDataProviderResult<AutoCompleteItem>
+        {
+            Data = filteredItems,
+            TotalCount = filteredItems.Count()
+        });
+    }
+
+    private async Task OnAutoCompleteChanged(AutoCompleteItem args)
+    {
+        Value = args.Text;
+        await ValueChanged.InvokeAsync(Value);
+    }
+
+    public class AutoCompleteItem
+    {
+        public string Text { get; set; } = string.Empty;
+    }
+}

@@ -10,30 +10,32 @@
   <component name="ChangeListManager">
     <list default="true" id="640f85f9-f7d4-4098-8ba6-9d8731d0cd30" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.BootstrapThemingApp.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BootstrapThemingApp.dir/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pages/SalFormbuilder.razor" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/SalFormbuilder.razor" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Folder.DotSettings.user" beforeDir="false" afterPath="$PROJECT_DIR$/Folder.DotSettings.user" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Shared/Components/FormBuilder.razor" beforeDir="false" afterPath="$PROJECT_DIR$/Shared/Components/FormBuilder.razor" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Shared/models/FormConfig.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Shared/models/FormConfig.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/Debug/net9.0/BootstrapThemingApp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net9.0/BootstrapThemingApp.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/Debug/net9.0/BootstrapThemingApp.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net9.0/BootstrapThemingApp.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/Debug/net9.0/BootstrapThemingApp.staticwebassets.endpoints.json" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net9.0/BootstrapThemingApp.staticwebassets.endpoints.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/Debug/net9.0/BootstrapThemingApp.staticwebassets.runtime.json" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net9.0/BootstrapThemingApp.staticwebassets.runtime.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/Debug/net9.0/wwwroot/_framework/BootstrapThemingApp.35nk61bahp.wasm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/Debug/net9.0/wwwroot/_framework/BootstrapThemingApp.35nk61bahp.wasm.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/Debug/net9.0/wwwroot/_framework/BootstrapThemingApp.bv81kjr1nc.pdb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/Debug/net9.0/wwwroot/_framework/BootstrapThemingApp.bv81kjr1nc.pdb.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/net9.0/wwwroot/_framework/BootstrapThemingApp.ion2umg01k.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/net9.0/wwwroot/_framework/BootstrapThemingApp.ion2umg01k.pdb.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/net9.0/wwwroot/_framework/BootstrapThemingApp.qos165erlc.wasm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/Debug/net9.0/wwwroot/_framework/BootstrapThemingApp.qos165erlc.wasm.gz" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/Debug/net9.0/wwwroot/_framework/blazor.boot.json" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net9.0/wwwroot/_framework/blazor.boot.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/Debug/net9.0/wwwroot/_framework/blazor.boot.json.gz" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net9.0/wwwroot/_framework/blazor.boot.json.gz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/net9.0/BootstrapThemingApp.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net9.0/BootstrapThemingApp.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/net9.0/BootstrapThemingApp.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net9.0/BootstrapThemingApp.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net9.0/BootstrapThemingApp.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net9.0/BootstrapThemingApp.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/net9.0/BootstrapThemingApp.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net9.0/BootstrapThemingApp.csproj.FileListAbsolute.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/net9.0/BootstrapThemingApp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net9.0/BootstrapThemingApp.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/net9.0/BootstrapThemingApp.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net9.0/BootstrapThemingApp.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/net9.0/BootstrapThemingApp.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net9.0/BootstrapThemingApp.sourcelink.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/net9.0/blazor.boot.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net9.0/blazor.boot.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net9.0/compressed/4euipgra9v-wpfzhc3wpn.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net9.0/compressed/akxof6u3fo-fww59fof3o.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net9.0/compressed/oo0ryr1bkd-35nk61bahp.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net9.0/compressed/rf53xnbr4s-bv81kjr1nc.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net9.0/compressed/4euipgra9v-2i8ia8nx9r.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net9.0/compressed/5w3db92xxd-i509eu3dpd.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net9.0/compressed/akxof6u3fo-j4hkw90z1p.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net9.0/compressed/oo0ryr1bkd-qos165erlc.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net9.0/compressed/rf53xnbr4s-ion2umg01k.gz" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/net9.0/ref/BootstrapThemingApp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net9.0/ref/BootstrapThemingApp.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/net9.0/refint/BootstrapThemingApp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net9.0/refint/BootstrapThemingApp.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/net9.0/staticwebassets.build.endpoints.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net9.0/staticwebassets.build.endpoints.json" afterDir="false" />
@@ -44,6 +46,7 @@
       <change beforePath="$PROJECT_DIR$/obj/Debug/net9.0/tmp-webcil/BootstrapThemingApp.wasm" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net9.0/tmp-webcil/BootstrapThemingApp.wasm" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/net9.0/webcil/BootstrapThemingApp.wasm" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net9.0/webcil/BootstrapThemingApp.wasm" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wwwroot/form-configs/user-credentials.json" beforeDir="false" afterPath="$PROJECT_DIR$/wwwroot/form-configs/user-credentials.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wwwroot/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/wwwroot/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,6 +66,7 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/492e26d176d64f46bdefc54e938b02afd3c00/1f/aaffda23/NavItem.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/492e26d176d64f46bdefc54e938b02afd3c00/3e/666a44dc/Callout.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/492e26d176d64f46bdefc54e938b02afd3c00/8d/d1cea92a/PasswordInput.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/492e26d176d64f46bdefc54e938b02afd3c00/a3/e5e09c5c/AutoComplete`1.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/492e26d176d64f46bdefc54e938b02afd3c00/d5/22def666/Button.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/492e26d176d64f46bdefc54e938b02afd3c00/d6/c501cbab/CalloutColor.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/492e26d176d64f46bdefc54e938b02afd3c00/e2/19cc23dc/IconName.cs" root0="SKIP_HIGHLIGHTING" />
@@ -183,6 +187,19 @@
           <properties exception="System.Threading.ThreadAbortException" breakIfHandledByOtherCode="false" displayValue="System.Threading.ThreadAbortException" />
           <option name="timeStamp" value="3" />
         </breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Shared/models/FormConfig.cs</url>
+          <line>26</line>
+          <properties documentPath="$PROJECT_DIR$/Shared/models/FormConfig.cs" containingFunctionPresentation="Property 'Options'">
+            <startOffsets>
+              <option value="660" />
+            </startOffsets>
+            <endOffsets>
+              <option value="664" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
